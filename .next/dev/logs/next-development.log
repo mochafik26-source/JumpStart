@@ -1,0 +1,66 @@
+[00:00:02.034] Server  LOG     ✓ Ready in 1519ms
+[00:00:19.524] Server  LOG     ○ Compiling / ...
+[00:00:22.378] Server  ERROR   ⨯ ./app/page.tsx:13:6
+Parsing ecmascript source code failed
+  11 |    </div>
+  12 |
+> 13 |    </section>
+     |      ^^^^^^^
+  14 |    </>
+  15 |   );
+  16 | }
+
+Expected '>', got 'ident'
+
+
+[00:00:24.468] Browser ERROR   uncaughtError: Error: ./app/page.tsx:13:6
+Parsing ecmascript source code failed
+  11 |    </div>
+  12 |
+> 13 |    </section>
+     |      ^^^^^^^
+  14 |    </>
+  15 |   );
+  16 | }
+
+Expected '>', got 'ident'
+
+
+[00:00:24.702] Browser ERROR   ./app/page.tsx:13:6
+Parsing ecmascript source code failed
+  11 |    </div>
+  12 |
+> 13 |    </section>
+     |      ^^^^^^^
+  14 |    </>
+  15 |   );
+  16 | }
+
+Expected '>', got 'ident'
+[00:00:25.694] Browser ERROR   ./app/page.tsx:13:6
+Parsing ecmascript source code failed
+  11 |    </div>
+  12 |
+> 13 |    </section>
+     |      ^^^^^^^
+  14 |    </>
+  15 |   );
+  16 | }
+
+Expected '>', got 'ident'
+[00:01:50.983] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:04:53.913] Server  LOG     ✓ Compiled in 41ms
+[00:06:12.113] Browser ERROR   Received `%s` for a non-boolean attribute `%s`.
+
+If you want to write it to the DOM, pass a string instead: %s="%s" or %s={value.toString()}. true className className true className
+[00:07:54.671] Server  ERROR   Received `true` for a non-boolean attribute `className`.
+
+If you want to write it to the DOM, pass a string instead: className="true" or className={value.toString()}.
+[00:08:33.719] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:08:33.862] Browser ERROR   Received `%s` for a non-boolean attribute `%s`.
+
+If you want to write it to the DOM, pass a string instead: %s="%s" or %s={value.toString()}. true className className true className
+[00:20:40.890] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:20:40.890] Browser ERROR   Received `%s` for a non-boolean attribute `%s`.
+
+If you want to write it to the DOM, pass a string instead: %s="%s" or %s={value.toString()}. true className className true className
