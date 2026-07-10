@@ -1,0 +1,34 @@
+{
+  "project_type": "Next.js Frontend",
+  "stack": ["Next.js", "TypeScript", "React", "Tailwind CSS"],
+  "prerequisites": {
+    "node_version": ">=18.17.0",
+    "npm_version": ">=9.0.0"
+  },
+  "steps": [
+    {
+      "step_number": 1,
+      "title": "Initialize Project",
+      "command": "npx create-next-app@latest my-nextjs-app --typescript --eslint --tailwind --app --src-dir",
+      "description": "Creates a modern Next.js project with TypeScript, Tailwind CSS, an absolute src directory structure, and the App Router pre-configured."
+    },
+    {
+      "step_number": 2,
+      "title": "Navigate into Directory",
+      "command": "cd my-nextjs-app",
+      "description": "Changes your current working directory to the newly generated project folder."
+    },
+    {
+      "step_number": 3,
+      "title": "Verify TypeScript Config",
+      "command": "cat tsconfig.json",
+      "description": "Inspects the auto-generated configuration mapping paths and strict typing rules for compilation."
+    },
+    {
+      "step_number": 4,
+      "title": "Start Local Development Server",
+      "command": "npm run dev",
+      "description": "Spins up a hot-reloading development server accessible in your browser at http://localhost:3000."
+    }
+  ]
+}
