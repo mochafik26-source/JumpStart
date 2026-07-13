@@ -1,66 +1,579 @@
-[00:00:02.034] Server  LOG     ✓ Ready in 1519ms
-[00:00:19.524] Server  LOG     ○ Compiling / ...
-[00:00:22.378] Server  ERROR   ⨯ ./app/page.tsx:13:6
+[00:00:01.575] Server  LOG     ✓ Ready in 1139ms
+[00:00:36.024] Server  LOG     {}
+[00:00:36.947] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:01:55.987] Server  LOG     {}
+[00:01:56.526] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:02:21.166] Server  LOG     {}
+[00:02:24.731] Server  LOG     {}
+[00:02:25.359] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:03:04.913] Server  LOG     {}
+[00:03:14.031] Server  LOG     {}
+[00:03:14.636] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:04:07.262] Server  LOG     {}
+[00:04:11.319] Server  LOG     {}
+[00:04:11.869] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:05:28.550] Browser ERROR   ./app/page.tsx:3:15
 Parsing ecmascript source code failed
-  11 |    </div>
-  12 |
-> 13 |    </section>
-     |      ^^^^^^^
-  14 |    </>
-  15 |   );
-  16 | }
+  1 | import Test from "./Components/types/backts";
+  2 | export default function Home() {
+> 3 |   const res = await fetch("http://127.0.0.1:5000/api");
+    |               ^^^^^
+  4 |   const data = res.json();
+  5 |   console.log(data);
+  6 |   return <></>;
 
-Expected '>', got 'ident'
-
-
-[00:00:24.468] Browser ERROR   uncaughtError: Error: ./app/page.tsx:13:6
+await isn't allowed in non-async function
+[00:05:30.804] Server  ERROR   ⨯ ./app/page.tsx:3:15
 Parsing ecmascript source code failed
-  11 |    </div>
-  12 |
-> 13 |    </section>
-     |      ^^^^^^^
-  14 |    </>
-  15 |   );
-  16 | }
+  1 | import Test from "./Components/types/backts";
+  2 | export default function Home() {
+> 3 |   const res = await fetch("http://127.0.0.1:5000/api");
+    |               ^^^^^
+  4 |   const data = res.json();
+  5 |   console.log(data);
+  6 |   return <></>;
 
-Expected '>', got 'ident'
+await isn't allowed in non-async function
 
 
-[00:00:24.702] Browser ERROR   ./app/page.tsx:13:6
+[00:05:31.816] Browser ERROR   uncaughtError: Error: ./app/page.tsx:3:15
 Parsing ecmascript source code failed
-  11 |    </div>
-  12 |
-> 13 |    </section>
-     |      ^^^^^^^
-  14 |    </>
-  15 |   );
-  16 | }
+  1 | import Test from "./Components/types/backts";
+  2 | export default function Home() {
+> 3 |   const res = await fetch("http://127.0.0.1:5000/api");
+    |               ^^^^^
+  4 |   const data = res.json();
+  5 |   console.log(data);
+  6 |   return <></>;
 
-Expected '>', got 'ident'
-[00:00:25.694] Browser ERROR   ./app/page.tsx:13:6
+await isn't allowed in non-async function
+
+
+[00:05:32.076] Browser ERROR   ./app/page.tsx:3:15
 Parsing ecmascript source code failed
-  11 |    </div>
+  1 | import Test from "./Components/types/backts";
+  2 | export default function Home() {
+> 3 |   const res = await fetch("http://127.0.0.1:5000/api");
+    |               ^^^^^
+  4 |   const data = res.json();
+  5 |   console.log(data);
+  6 |   return <></>;
+
+await isn't allowed in non-async function
+[00:05:32.184] Browser ERROR   ./app/page.tsx:3:15
+Parsing ecmascript source code failed
+  1 | import Test from "./Components/types/backts";
+  2 | export default function Home() {
+> 3 |   const res = await fetch("http://127.0.0.1:5000/api");
+    |               ^^^^^
+  4 |   const data = res.json();
+  5 |   console.log(data);
+  6 |   return <></>;
+
+await isn't allowed in non-async function
+[00:05:40.416] Server  LOG     {}
+[00:05:40.902] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:07:37.407] Browser ERROR   ./app/page.tsx:1:10
+Ecmascript file had an error
+> 1 | import { useEffect } from "react";
+    |          ^^^^^^^^^
+  2 | export default async function Home() {
+  3 |   useEffect(() => {
+  4 |     fetch("http://localhost:5000/api/user").then((res) => res.json());
+
+You're importing a component that needs `useEffect`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+[00:07:42.800] Server  ERROR   ⨯ ./app/page.tsx:1:10
+Ecmascript file had an error
+> 1 | import { useEffect } from "react";
+    |          ^^^^^^^^^
+  2 | export default async function Home() {
+  3 |   useEffect(() => {
+  4 |     fetch("http://localhost:5000/api/user").then((res) => res.json());
+
+You're importing a component that needs `useEffect`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+
+
+
+
+[00:07:43.320] Browser ERROR   uncaughtError: Error: ./app/page.tsx:1:10
+Ecmascript file had an error
+> 1 | import { useEffect } from "react";
+    |          ^^^^^^^^^
+  2 | export default async function Home() {
+  3 |   useEffect(() => {
+  4 |     fetch("http://localhost:5000/api/user").then((res) => res.json());
+
+You're importing a component that needs `useEffect`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+
+
+
+
+[00:07:43.413] Browser ERROR   ./app/page.tsx:1:10
+Ecmascript file had an error
+> 1 | import { useEffect } from "react";
+    |          ^^^^^^^^^
+  2 | export default async function Home() {
+  3 |   useEffect(() => {
+  4 |     fetch("http://localhost:5000/api/user").then((res) => res.json());
+
+You're importing a component that needs `useEffect`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+[00:07:43.569] Browser ERROR   ./app/page.tsx:1:10
+Ecmascript file had an error
+> 1 | import { useEffect } from "react";
+    |          ^^^^^^^^^
+  2 | export default async function Home() {
+  3 |   useEffect(() => {
+  4 |     fetch("http://localhost:5000/api/user").then((res) => res.json());
+
+You're importing a component that needs `useEffect`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+[00:07:50.996] Browser ERROR   ./app/page.tsx:1:10
+Ecmascript file had an error
+> 1 | import { useEffect } from "react";
+    |          ^^^^^^^^^
+  2 | export default async function Home() {
+  3 |   useEffect(() => {
+  4 |     fetch("http://localhost:5000/api").then((res) => res.json());
+
+You're importing a component that needs `useEffect`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+[00:07:52.752] Server  ERROR   ⨯ ./app/page.tsx:1:10
+Ecmascript file had an error
+> 1 | import { useEffect } from "react";
+    |          ^^^^^^^^^
+  2 | export default async function Home() {
+  3 |   useEffect(() => {
+  4 |     fetch("http://localhost:5000/api").then((res) => res.json());
+
+You're importing a component that needs `useEffect`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+
+
+
+
+[00:07:53.383] Browser ERROR   ./app/page.tsx:1:10
+Ecmascript file had an error
+> 1 | import { useEffect } from "react";
+    |          ^^^^^^^^^
+  2 | export default async function Home() {
+  3 |   useEffect(() => {
+  4 |     fetch("http://localhost:5000/api").then((res) => res.json());
+
+You're importing a component that needs `useEffect`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+[00:07:53.383] Browser ERROR   uncaughtError: Error: ./app/page.tsx:1:10
+Ecmascript file had an error
+> 1 | import { useEffect } from "react";
+    |          ^^^^^^^^^
+  2 | export default async function Home() {
+  3 |   useEffect(() => {
+  4 |     fetch("http://localhost:5000/api").then((res) => res.json());
+
+You're importing a component that needs `useEffect`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+
+
+
+
+[00:07:53.485] Browser ERROR   ./app/page.tsx:1:10
+Ecmascript file had an error
+> 1 | import { useEffect } from "react";
+    |          ^^^^^^^^^
+  2 | export default async function Home() {
+  3 |   useEffect(() => {
+  4 |     fetch("http://localhost:5000/api").then((res) => res.json());
+
+You're importing a component that needs `useEffect`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+[00:08:12.866] Server  ERROR   ⨯ TypeError: {imported module ./nodemodules/next/dist/server/route-modules/app-page/vendored/rsc/react.js}.default is not a function
+[00:08:13.385] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:08:13.385] Browser ERROR   uncaughtError: TypeError: (0 , __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__.default) is not a function
+[00:08:36.725] Browser ERROR   ./app/page.tsx:5:11
+Parsing ecmascript source code failed
+  3 |   useEffect(() => {
+  4 |     fetch("http://localhost:5000/api").then((res) => res.json());
+> 5 |           .then((res) => res.json())
+    |           ^
+  6 |     console.log(res);
+  7 |   }, []);
+  8 |   return <></>;
+
+Expression expected
+[00:08:43.461] Browser ERROR   ./app/page.tsx:5:5
+Parsing ecmascript source code failed
+  3 |   useEffect(() => {
+  4 |     fetch("http://localhost:5000/api").then((res) => res.json());
+> 5 |     .then((res) => res.json())
+    |     ^
+  6 |     console.log(res);
+  7 |   }, []);
+  8 |   return <></>;
+
+Expression expected
+[00:08:46.313] Server  ERROR   ⨯ ./app/page.tsx:5:5
+Parsing ecmascript source code failed
+  3 |   useEffect(() => {
+  4 |     fetch("http://localhost:5000/api").then((res) => res.json());
+> 5 |     .then((res) => res.json())
+    |     ^
+  6 |     console.log(res);
+  7 |   }, []);
+  8 |   return <></>;
+
+Expression expected
+
+
+[00:08:46.863] Browser ERROR   uncaughtError: Error: ./app/page.tsx:5:5
+Parsing ecmascript source code failed
+  3 |   useEffect(() => {
+  4 |     fetch("http://localhost:5000/api").then((res) => res.json());
+> 5 |     .then((res) => res.json())
+    |     ^
+  6 |     console.log(res);
+  7 |   }, []);
+  8 |   return <></>;
+
+Expression expected
+
+
+[00:08:47.067] Browser ERROR   ./app/page.tsx:5:5
+Parsing ecmascript source code failed
+  3 |   useEffect(() => {
+  4 |     fetch("http://localhost:5000/api").then((res) => res.json());
+> 5 |     .then((res) => res.json())
+    |     ^
+  6 |     console.log(res);
+  7 |   }, []);
+  8 |   return <></>;
+
+Expression expected
+[00:08:47.067] Browser ERROR   ./app/page.tsx:5:5
+Parsing ecmascript source code failed
+  3 |   useEffect(() => {
+  4 |     fetch("http://localhost:5000/api").then((res) => res.json());
+> 5 |     .then((res) => res.json())
+    |     ^
+  6 |     console.log(res);
+  7 |   }, []);
+  8 |   return <></>;
+
+Expression expected
+[00:11:07.608] Browser ERROR   ./app/page.tsx:1:10
+Ecmascript file had an error
+> 1 | import { useEffect, useState } from "react";
+    |          ^^^^^^^^^
+  2 | export default async function Home() {
+  3 |   const [data, setData] = useState("");
+  4 |   useEffect(() => {
+
+You're importing a component that needs `useEffect`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+[00:11:07.608] Browser ERROR   ./app/page.tsx:1:21
+Ecmascript file had an error
+> 1 | import { useEffect, useState } from "react";
+    |                     ^^^^^^^^
+  2 | export default async function Home() {
+  3 |   const [data, setData] = useState("");
+  4 |   useEffect(() => {
+
+You're importing a component that needs `useState`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+[00:11:37.046] Browser ERROR   ./app/page.tsx:1:10
+Ecmascript file had an error
+> 1 | import { useEffect, useState } from "react";
+    |          ^^^^^^^^^
+  2 | export default async function Home() {
+  3 |   const [data, setData] = useState("");
+  4 |   useEffect(() => {
+
+You're importing a component that needs `useEffect`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+[00:11:37.046] Browser ERROR   ./app/page.tsx:1:21
+Ecmascript file had an error
+> 1 | import { useEffect, useState } from "react";
+    |                     ^^^^^^^^
+  2 | export default async function Home() {
+  3 |   const [data, setData] = useState("");
+  4 |   useEffect(() => {
+
+You're importing a component that needs `useState`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+[00:11:47.009] Server  ERROR   ⨯ ./app/page.tsx:1:10
+Ecmascript file had an error
+> 1 | import { useEffect, useState } from "react";
+    |          ^^^^^^^^^
+  2 | export default async function Home() {
+  3 |   const [data, setData] = useState("");
+  4 |   useEffect(() => {
+
+You're importing a component that needs `useEffect`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+
+
+
+
+
+./app/page.tsx:1:21
+Ecmascript file had an error
+> 1 | import { useEffect, useState } from "react";
+    |                     ^^^^^^^^
+  2 | export default async function Home() {
+  3 |   const [data, setData] = useState("");
+  4 |   useEffect(() => {
+
+You're importing a component that needs `useState`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+
+
+
+
+[00:11:47.551] Browser ERROR   uncaughtError: Error: ./app/page.tsx:1:10
+Ecmascript file had an error
+> 1 | import { useEffect, useState } from "react";
+    |          ^^^^^^^^^
+  2 | export default async function Home() {
+  3 |   const [data, setData] = useState("");
+  4 |   useEffect(() => {
+
+You're importing a component that needs `useEffect`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+
+
+
+
+[00:11:47.735] Browser ERROR   ./app/page.tsx:1:10
+Ecmascript file had an error
+> 1 | import { useEffect, useState } from "react";
+    |          ^^^^^^^^^
+  2 | export default async function Home() {
+  3 |   const [data, setData] = useState("");
+  4 |   useEffect(() => {
+
+You're importing a component that needs `useEffect`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+[00:11:47.735] Browser ERROR   ./app/page.tsx:1:21
+Ecmascript file had an error
+> 1 | import { useEffect, useState } from "react";
+    |                     ^^^^^^^^
+  2 | export default async function Home() {
+  3 |   const [data, setData] = useState("");
+  4 |   useEffect(() => {
+
+You're importing a component that needs `useState`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+[00:11:47.798] Browser ERROR   ./app/page.tsx:1:10
+Ecmascript file had an error
+> 1 | import { useEffect, useState } from "react";
+    |          ^^^^^^^^^
+  2 | export default async function Home() {
+  3 |   const [data, setData] = useState("");
+  4 |   useEffect(() => {
+
+You're importing a component that needs `useEffect`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+[00:11:47.799] Browser ERROR   ./app/page.tsx:1:21
+Ecmascript file had an error
+> 1 | import { useEffect, useState } from "react";
+    |                     ^^^^^^^^
+  2 | export default async function Home() {
+  3 |   const [data, setData] = useState("");
+  4 |   useEffect(() => {
+
+You're importing a component that needs `useState`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+[00:12:02.539] Browser ERROR   ./app/page.tsx:1:10
+Ecmascript file had an error
+> 1 | import { useEffect, useState } from "react";
+    |          ^^^^^^^^^
+  2 | export default function Home() {
+  3 |   const [data, setData] = useState("");
+  4 |   useEffect(() => {
+
+You're importing a component that needs `useEffect`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+[00:12:02.539] Browser ERROR   ./app/page.tsx:1:21
+Ecmascript file had an error
+> 1 | import { useEffect, useState } from "react";
+    |                     ^^^^^^^^
+  2 | export default function Home() {
+  3 |   const [data, setData] = useState("");
+  4 |   useEffect(() => {
+
+You're importing a component that needs `useState`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+[00:12:06.608] Server  ERROR   ⨯ ./app/page.tsx:1:10
+Ecmascript file had an error
+> 1 | import { useEffect, useState } from "react";
+    |          ^^^^^^^^^
+  2 | export default function Home() {
+  3 |   const [data, setData] = useState("");
+  4 |   useEffect(() => {
+
+You're importing a component that needs `useEffect`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+
+
+
+
+
+./app/page.tsx:1:21
+Ecmascript file had an error
+> 1 | import { useEffect, useState } from "react";
+    |                     ^^^^^^^^
+  2 | export default function Home() {
+  3 |   const [data, setData] = useState("");
+  4 |   useEffect(() => {
+
+You're importing a component that needs `useState`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+
+
+
+
+[00:12:07.140] Browser ERROR   uncaughtError: Error: ./app/page.tsx:1:10
+Ecmascript file had an error
+> 1 | import { useEffect, useState } from "react";
+    |          ^^^^^^^^^
+  2 | export default function Home() {
+  3 |   const [data, setData] = useState("");
+  4 |   useEffect(() => {
+
+You're importing a component that needs `useEffect`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+
+
+
+
+[00:12:07.376] Browser ERROR   ./app/page.tsx:1:10
+Ecmascript file had an error
+> 1 | import { useEffect, useState } from "react";
+    |          ^^^^^^^^^
+  2 | export default function Home() {
+  3 |   const [data, setData] = useState("");
+  4 |   useEffect(() => {
+
+You're importing a component that needs `useEffect`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+[00:12:07.376] Browser ERROR   ./app/page.tsx:1:21
+Ecmascript file had an error
+> 1 | import { useEffect, useState } from "react";
+    |                     ^^^^^^^^
+  2 | export default function Home() {
+  3 |   const [data, setData] = useState("");
+  4 |   useEffect(() => {
+
+You're importing a component that needs `useState`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+[00:12:07.376] Browser ERROR   ./app/page.tsx:1:10
+Ecmascript file had an error
+> 1 | import { useEffect, useState } from "react";
+    |          ^^^^^^^^^
+  2 | export default function Home() {
+  3 |   const [data, setData] = useState("");
+  4 |   useEffect(() => {
+
+You're importing a component that needs `useEffect`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+[00:12:07.376] Browser ERROR   ./app/page.tsx:1:21
+Ecmascript file had an error
+> 1 | import { useEffect, useState } from "react";
+    |                     ^^^^^^^^
+  2 | export default function Home() {
+  3 |   const [data, setData] = useState("");
+  4 |   useEffect(() => {
+
+You're importing a component that needs `useState`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+[00:13:06.849] Server  LOG     ✓ Compiled in 84ms
+[00:13:07.569] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:13:42.721] Server  LOG     ✓ Compiled in 18ms
+[00:13:43.175] Browser LOG     undefined
+[00:13:43.175] Browser LOG     undefined
+[00:13:46.096] Server  LOG     
+[00:13:46.593] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:13:46.780] Browser LOG     
+[00:13:46.780] Browser LOG     
+[00:13:46.780] Browser LOG     undefined
+[00:13:46.780] Browser LOG     undefined
+[00:14:17.518] Server  LOG     ✓ Compiled in 18ms
+[00:14:21.700] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:14:21.836] Browser LOG     
+[00:15:03.849] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:15:03.995] Browser LOG     
+[00:15:40.258] Server  LOG     ✓ Compiled in 18ms
+[00:15:41.314] Browser ERROR   ./app/page.tsx:10:7
+Parsing ecmascript source code failed
+   8 |       .then((res) => res.json())
+   9 |       .then((data) => setData(data.message));
+> 10 |       .then(console.log(data);)
+     |       ^
+  11 |   }, []);
   12 |
-> 13 |    </section>
-     |      ^^^^^^^
-  14 |    </>
-  15 |   );
-  16 | }
+  13 |   return <div>{data}</div>;
 
-Expected '>', got 'ident'
-[00:01:50.983] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:04:53.913] Server  LOG     ✓ Compiled in 41ms
-[00:06:12.113] Browser ERROR   Received `%s` for a non-boolean attribute `%s`.
+Expression expected
 
-If you want to write it to the DOM, pass a string instead: %s="%s" or %s={value.toString()}. true className className true className
-[00:07:54.671] Server  ERROR   Received `true` for a non-boolean attribute `className`.
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
 
-If you want to write it to the DOM, pass a string instead: className="true" or className={value.toString()}.
-[00:08:33.719] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:08:33.862] Browser ERROR   Received `%s` for a non-boolean attribute `%s`.
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[00:15:52.131] Browser ERROR   ./app/page.tsx:10:7
+Parsing ecmascript source code failed
+   8 |       .then((res) => res.json())
+   9 |       .then((data) => setData(data.message));
+> 10 |       .then(console.log(data));
+     |       ^
+  11 |   }, []);
+  12 |
+  13 |   return <div>{data}</div>;
 
-If you want to write it to the DOM, pass a string instead: %s="%s" or %s={value.toString()}. true className className true className
-[00:20:40.890] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:20:40.890] Browser ERROR   Received `%s` for a non-boolean attribute `%s`.
+Expression expected
 
-If you want to write it to the DOM, pass a string instead: %s="%s" or %s={value.toString()}. true className className true className
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[00:16:54.032] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:16:54.212] Browser LOG     {"project_type":"Full-Stack React & Node MERN/PERN Foundation","stack":["React (Vite)","Node.js","Express"],"steps":[{"command":"mkdir fullstack-app && cd fullstack-app && mkdir client server","description":"Generates a parent folder containing isolated directories for the frontend client and backend server.","step_number":1,"title":"Create Project Directories"},{"command":"cd server && npm init -y && npm install express cors dotenv && npm install --save-dev nodemon","description":"Initializes package management inside the server directory and provisions Express router architectures with dynamic reloading.","step_number":2,"title":"Setup Node.js Backend Engine"},{"command":"cd ../client && npm create vite@latest . -- --template react && npm install","description":"Installs a streamlined React engine using Vite for rapid modular browser bundles directly in the client workspace.","step_number":3,"title":"Setup React Frontend Interface"},{"command":"Parallel terminal execution: [server] npm run dev | [client] npm run dev","description":"Launches the Node backend api (typically on port 5000/8080) concurrently alongside the Vite client pipeline (typically port 5173).","step_number":4,"title":"Execute Development Environments"}],"structure_type":"Monorepo folders"}
