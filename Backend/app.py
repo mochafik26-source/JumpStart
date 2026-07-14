@@ -7,11 +7,18 @@ app = Flask(__name__)
 CORS(app)
 
 
-@app.route("/api", methods=["GET"])
-def fetch():
+@app.route("/react", methods=["GET"])
+def react():
     with open("./Guides/react_setup.json", "r") as file:
         guide = json.load(file)
 
+    return jsonify(guide), 200
+
+
+@app.route("/next", methods=["GET"])
+def next():
+    with open("./Guides/Next_setup.json", "r") as file:
+        guide = json.load(file)
     return jsonify(guide), 200
 
 

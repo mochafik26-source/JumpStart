@@ -1,0 +1,11 @@
+{
+  "id": "nodejs",
+  "name": "Node.js",
+  "install": {
+    "windows": ["Download Node.js LTS from https://nodejs.org"],
+    "ubuntu": ["sudo apt update", "sudo apt install nodejs npm"],
+    "arch": ["sudo pacman -S nodejs npm"],
+    "macos": ["brew install node"]
+  },
+  "verify": ["node -v", "npm -v"]
+}

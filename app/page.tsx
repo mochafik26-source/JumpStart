@@ -1,13 +1,20 @@
 "use client";
 import { useEffect, useState } from "react";
-
+import Test from "./Components/types/backts";
 export default function Home() {
   const [data, setData] = useState("");
-  useEffect(() => {
-    fetch("http://127.0.0.1:5000/api")
-      .then((res) => res.json())
-      .then((data) => console.log(data));
-  }, []);
+  const [Choosen, setChoosen] = useState("");
 
-  return <div></div>;
+  return (
+    <div>
+      <form
+        onSubmit={(e) => {
+          console.log(e.target.value);
+        }}
+      >
+        <input type="text" />
+        <button type="submit">Submit</button>
+      </form>
+    </div>
+  );
 }
