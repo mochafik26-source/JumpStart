@@ -1,0 +1,8 @@
+{
+  "id": "react",
+  "name": "React",
+  "install": {
+    "all": ["npm create vite@latest"]
+  },
+  "verify": ["npm install", "npm run dev"]
+}

@@ -9,7 +9,7 @@ CORS(app)
 
 @app.route("/react", methods=["GET"])
 def react():
-    with open("./Guides/react_setup.json", "r") as file:
+    with open("./Guides/React.json", "r") as file:
         guide = json.load(file)
 
     return jsonify(guide), 200
@@ -17,7 +17,21 @@ def react():
 
 @app.route("/next", methods=["GET"])
 def next():
-    with open("./Guides/Next_setup.json", "r") as file:
+    with open("./Guides/Next.json", "r") as file:
+        guide = json.load(file)
+    return jsonify(guide), 200
+
+
+@app.route("/git", methods=["GET"])
+def git():
+    with open("./Guides/Git.json", "r") as file:
+        guide = json.load(file)
+    return jsonify(guide), 200
+
+
+@app.route("/node", methods=["GET"])
+def node():
+    with open("./Guides/Node.json", "r") as file:
         guide = json.load(file)
     return jsonify(guide), 200
 

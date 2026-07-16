@@ -1,0 +1,8 @@
+{
+  "id": "typescript",
+  "name": "TypeScript",
+  "install": {
+    "all": ["npm install -D typescript"]
+  },
+  "verify": ["npx tsc --version"]
+}

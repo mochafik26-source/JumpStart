@@ -3,7 +3,7 @@ import { useEffect } from "react";
 
 export default function Test(tech: string) {
   useEffect(() => {
-    fetch(`http://127.0.0.1:5000/${tech}`)
+    fetch(`http://127.0.0.1:5000/git`)
       .then((res) => res.json())
       .then((data) => console.log(data));
   }, []);

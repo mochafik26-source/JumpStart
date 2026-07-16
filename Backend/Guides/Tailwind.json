@@ -1,0 +1,8 @@
+{
+  "id": "tailwind",
+  "name": "Tailwind CSS",
+  "install": {
+    "vite": ["npm install tailwindcss @tailwindcss/vite"],
+    "nextjs": ["Select Tailwind during create-next-app setup"]
+  }
+}

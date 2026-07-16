@@ -1,0 +1,8 @@
+{
+  "id": "nextjs",
+  "name": "Next.js",
+  "install": {
+    "all": ["npx create-next-app@latest"]
+  },
+  "verify": ["cd my-app", "npm run dev"]
+}
