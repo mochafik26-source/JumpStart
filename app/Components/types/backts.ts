@@ -1,11 +1,24 @@
 "use client";
-import { useEffect } from "react";
 
-export default function Test(tech: string) {
+import { useEffect, useState } from "react";
+
+export default function Test(techs: string[]) {
+  const [guides, setGuides] = useState<any[]>([]);
+
   useEffect(() => {
-    fetch(`http://127.0.0.1:5000/git`)
-      .then((res) => res.json())
-      .then((data) => console.log(data));
+    async function fetchGuides() {
+      const results = await Promise.all(
+        techs.map(async (tech) => {
+          const res = await fetch(`http://localhost:5000/${tech}`);
+          return res.json();
+        }),
+      );
+
+      setGuides(results);
+    }
+
+    fetchGuides();
   }, []);
-  return null;
+
+  return guides;
 }

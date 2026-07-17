@@ -1,20 +1,5 @@
-[00:00:01.688] Server  LOG     ✓ Ready in 1221ms
-[00:00:16.177] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:00:16.177] Browser LOG     
-[00:00:23.507] Server  LOG     ✓ Compiled in 741ms
-[00:00:26.583] Browser LOG     []
-[00:00:34.632] Browser LOG     asd
-[00:00:40.883] Browser LOG     df
-[00:01:43.531] Server  LOG     ✓ Compiled in 27ms
-[00:01:51.524] Server  LOG     ✓ Compiled in 19ms
-[00:01:57.901] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:02:00.465] Browser LOG     []
-[00:04:51.298] Server  LOG     ✓ Compiled in 43ms
-[00:04:56.467] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:05:03.078] Browser LOG     []
-[00:05:07.787] Browser LOG     ["f"]
-[00:05:11.344] Browser LOG     ["f","asd"]
-[00:05:15.304] Browser LOG     ["f","asd","f"]
-[00:05:18.572] Browser LOG     ["f","asd","f","asd"]
-[00:05:22.624] Browser LOG     ["f","asd","f","asd","ff"]
-[00:05:26.544] Browser LOG     ["f","asd","f","asd","ff","asd"]
+[00:00:01.485] Server  LOG     ✓ Ready in 1105ms
+[00:00:06.820] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:08.527] Browser LOG     []
+[00:00:10.011] Browser LOG     []
+[00:00:15.332] Browser LOG     []
