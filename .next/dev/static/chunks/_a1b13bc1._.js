@@ -41,7 +41,7 @@ function Home() {
                     onClick: ()=>Select(item),
                     style: {
                         cursor: 'pointer',
-                        backgroundColor: selectedIndex === index ? 'lightblue' : 'white',
+                        backgroundColor: selectedIndex.includes(item) ? 'lightblue' : 'white',
                         padding: '8px'
                     },
                     children: item
