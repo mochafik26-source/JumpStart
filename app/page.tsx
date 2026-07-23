@@ -1,12 +1,16 @@
 "use client";
 import { useEffect, useState } from "react";
-import Test from "./Components/types/backts";
 import Button from "./Components/Selecting";
+import Fetching from "./Components/types/backts";
 export default function Home() {
   const Languages = ["git", "next", "react", "node", "taiwlind"];
  const [selectedIndex, setSelectedIndex] = useState<string[]>([]);
 
-function Select(position: string) {
+function getGuide(){
+    console.log(Fetching(selectedIndex));
+}
+
+ function Select(position: string) {
   setSelectedIndex(prev =>
     prev.includes(position)
       ? prev.filter(i => i !== position)
@@ -15,9 +19,11 @@ function Select(position: string) {
 
 
 }
+
 useEffect(() => {
  console.log(selectedIndex);
 },[selectedIndex])
+
   return (
     <>
 	<ul>
@@ -35,7 +41,9 @@ useEffect(() => {
       ))}
     </ul>
 
-    <Button/>
+    <Button onClick={getGuide}>
+        Click Me
+      </Button>
     </>
   );
 }

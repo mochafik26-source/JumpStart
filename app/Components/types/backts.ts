@@ -2,8 +2,8 @@
 
 import { useEffect, useState } from "react";
 
-export default function Test(techs: string[]) {
-  const [guides, setGuides] = useState<any[]>([]);
+export default function Fetching(techs: string[]) {
+  const [guides, setGuides] = useState<string>([]);
 
   useEffect(() => {
     async function fetchGuides() {
