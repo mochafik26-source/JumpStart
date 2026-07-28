@@ -92,9 +92,6 @@ function Home() {
         "taiwlind"
     ];
     const [selectedIndex, setSelectedIndex] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])([]);
-    function getGuide() {
-        console.log((0, __TURBOPACK__imported__module__$5b$project$5d2f$app$2f$Components$2f$types$2f$backts$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"])(selectedIndex));
-    }
     function Select(position) {
         setSelectedIndex((prev)=>prev.includes(position) ? prev.filter((i)=>i !== position) : [
                 ...prev,
@@ -121,12 +118,12 @@ function Home() {
                         children: item
                     }, index, false, {
                         fileName: "[project]/app/page.tsx",
-                        lineNumber: 31,
+                        lineNumber: 28,
                         columnNumber: 10
                     }, this))
             }, void 0, false, {
                 fileName: "[project]/app/page.tsx",
-                lineNumber: 29,
+                lineNumber: 26,
                 columnNumber: 2
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$app$2f$Components$2f$Selecting$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
@@ -134,8 +131,15 @@ function Home() {
                 children: "Click Me"
             }, void 0, false, {
                 fileName: "[project]/app/page.tsx",
-                lineNumber: 44,
+                lineNumber: 41,
                 columnNumber: 5
+            }, this),
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$app$2f$Components$2f$types$2f$backts$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+                techs: selectedIndex
+            }, void 0, false, {
+                fileName: "[project]/app/page.tsx",
+                lineNumber: 45,
+                columnNumber: 7
             }, this)
         ]
     }, void 0, true);

@@ -3,7 +3,7 @@
 import { useEffect, useState } from "react";
 
 export default function Fetching(techs: string[]) {
-  const [guides, setGuides] = useState<string>([]);
+  const [guides, setGuides] = useState<any>([]);
 
   useEffect(() => {
     async function fetchGuides() {

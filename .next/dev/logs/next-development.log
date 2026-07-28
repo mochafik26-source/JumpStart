@@ -1,1 +1,1183 @@
-[00:00:01.373] Server  LOG     ✓ Ready in 1029ms
+[00:00:02.150] Server  LOG     ✓ Ready in 1644ms
+[00:00:27.589] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:27.702] Browser LOG     []
+[00:00:57.684] Browser LOG     ["taiwlind"]
+[00:00:58.650] Browser LOG     ["taiwlind","node"]
+[00:00:59.825] Browser ERROR   uncaughtError: Error: Invalid hook call. Hooks can only be called inside of the body of a function component. This could happen for one of the following reasons:
+1. You might have mismatching versions of React and the renderer (such as React DOM)
+2. You might be breaking the Rules of Hooks
+3. You might have more than one copy of React in the same app
+See https://react.dev/link/invalid-hook-call for tips about how to debug and fix this problem.
+[00:05:04.850] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:05:04.986] Browser LOG     []
+[00:05:06.418] Browser LOG     ["taiwlind"]
+[00:05:06.993] Browser ERROR   uncaughtError: Error: Invalid hook call. Hooks can only be called inside of the body of a function component. This could happen for one of the following reasons:
+1. You might have mismatching versions of React and the renderer (such as React DOM)
+2. You might be breaking the Rules of Hooks
+3. You might have more than one copy of React in the same app
+See https://react.dev/link/invalid-hook-call for tips about how to debug and fix this problem.
+[00:05:32.402] Server  LOG     ✓ Compiled in 331ms
+[00:05:34.067] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:05:34.198] Browser LOG     []
+[00:05:34.782] Browser LOG     ["taiwlind"]
+[00:05:35.064] Browser LOG     ["taiwlind","node"]
+[00:05:36.069] Browser LOG     ["taiwlind","node"]
+[00:06:11.346] Browser LOG     ["taiwlind","node"]
+[00:07:11.363] Server  LOG     ✓ Compiled in 31ms
+[00:07:11.469] Browser ERROR   ./app/page.tsx:10:10
+Parsing ecmascript source code failed
+   8 |
+   9 | function getGuide(){
+> 10 |    res = await Fetching(selectedIndex);
+     |          ^^^^^
+  11 |    console.log(res);
+  12 | }
+  13 |
+
+await isn't allowed in non-async function
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[00:07:12.956] Server  ERROR   ⨯ ./app/page.tsx:10:10
+Parsing ecmascript source code failed
+   8 |
+   9 | function getGuide(){
+> 10 |    res = await Fetching(selectedIndex);
+     |          ^^^^^
+  11 |    console.log(res);
+  12 | }
+  13 |
+
+await isn't allowed in non-async function
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+
+[00:07:13.920] Browser ERROR   ./app/page.tsx:10:10
+Parsing ecmascript source code failed
+   8 |
+   9 | function getGuide(){
+> 10 |    res = await Fetching(selectedIndex);
+     |          ^^^^^
+  11 |    console.log(res);
+  12 | }
+  13 |
+
+await isn't allowed in non-async function
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[00:07:13.920] Browser ERROR   uncaughtError: Error: ./app/page.tsx:10:10
+Parsing ecmascript source code failed
+   8 |
+   9 | function getGuide(){
+> 10 |    res = await Fetching(selectedIndex);
+     |          ^^^^^
+  11 |    console.log(res);
+  12 | }
+  13 |
+
+await isn't allowed in non-async function
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+
+[00:07:13.995] Browser ERROR   ./app/page.tsx:10:10
+Parsing ecmascript source code failed
+   8 |
+   9 | function getGuide(){
+> 10 |    res = await Fetching(selectedIndex);
+     |          ^^^^^
+  11 |    console.log(res);
+  12 | }
+  13 |
+
+await isn't allowed in non-async function
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[00:07:28.015] Browser ERROR   ./app/page.tsx:10:10
+Parsing ecmascript source code failed
+   8 |
+   9 | function getGuide(){
+> 10 |    res = await Fetching(selectedIndex);
+     |          ^^^^^
+  11 |    console.log(res);
+  12 | }
+  13 |
+
+await isn't allowed in non-async function
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[00:07:29.067] Server  ERROR   ⨯ ./app/page.tsx:10:10
+Parsing ecmascript source code failed
+   8 |
+   9 | function getGuide(){
+> 10 |    res = await Fetching(selectedIndex);
+     |          ^^^^^
+  11 |    console.log(res);
+  12 | }
+  13 |
+
+await isn't allowed in non-async function
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+
+[00:07:29.647] Browser ERROR   ./app/page.tsx:10:10
+Parsing ecmascript source code failed
+   8 |
+   9 | function getGuide(){
+> 10 |    res = await Fetching(selectedIndex);
+     |          ^^^^^
+  11 |    console.log(res);
+  12 | }
+  13 |
+
+await isn't allowed in non-async function
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[00:07:29.647] Browser ERROR   uncaughtError: Error: ./app/page.tsx:10:10
+Parsing ecmascript source code failed
+   8 |
+   9 | function getGuide(){
+> 10 |    res = await Fetching(selectedIndex);
+     |          ^^^^^
+  11 |    console.log(res);
+  12 | }
+  13 |
+
+await isn't allowed in non-async function
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+
+[00:07:29.647] Browser ERROR   ./app/page.tsx:10:10
+Parsing ecmascript source code failed
+   8 |
+   9 | function getGuide(){
+> 10 |    res = await Fetching(selectedIndex);
+     |          ^^^^^
+  11 |    console.log(res);
+  12 | }
+  13 |
+
+await isn't allowed in non-async function
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[00:07:42.146] Server  LOG     ✓ Compiled in 25ms
+[00:07:42.720] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:07:42.720] Browser LOG     []
+[00:07:43.716] Browser LOG     ["taiwlind"]
+[00:07:44.178] Browser LOG     ["taiwlind","node"]
+[00:07:45.000] Browser ERROR   uncaughtError: Error: Invalid hook call. Hooks can only be called inside of the body of a function component. This could happen for one of the following reasons:
+1. You might have mismatching versions of React and the renderer (such as React DOM)
+2. You might be breaking the Rules of Hooks
+3. You might have more than one copy of React in the same app
+See https://react.dev/link/invalid-hook-call for tips about how to debug and fix this problem.
+[00:10:53.123] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:10:53.262] Browser LOG     []
+[00:10:54.129] Browser LOG     ["node"]
+[00:10:54.630] Browser LOG     ["node","taiwlind"]
+[00:10:55.298] Browser ERROR   uncaughtError: Error: Invalid hook call. Hooks can only be called inside of the body of a function component. This could happen for one of the following reasons:
+1. You might have mismatching versions of React and the renderer (such as React DOM)
+2. You might be breaking the Rules of Hooks
+3. You might have more than one copy of React in the same app
+See https://react.dev/link/invalid-hook-call for tips about how to debug and fix this problem.
+[00:15:00.560] Server  LOG     ✓ Compiled in 18ms
+[00:15:00.655] Browser ERROR   unhandledRejection: TypeError: techs.map is not a function
+[00:15:00.655] Browser ERROR   unhandledRejection: TypeError: techs.map is not a function
+[00:15:02.739] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:15:02.919] Browser LOG     []
+[00:15:02.919] Browser ERROR   unhandledRejection: TypeError: techs.map is not a function
+[00:15:37.310] Server  LOG     ✓ Compiled in 20ms
+[00:15:39.337] Browser LOG     ["node"]
+[00:15:39.821] Browser LOG     ["node","taiwlind"]
+[00:15:42.274] Browser ERROR   uncaughtError: Error: Invalid hook call. Hooks can only be called inside of the body of a function component. This could happen for one of the following reasons:
+1. You might have mismatching versions of React and the renderer (such as React DOM)
+2. You might be breaking the Rules of Hooks
+3. You might have more than one copy of React in the same app
+See https://react.dev/link/invalid-hook-call for tips about how to debug and fix this problem.
+[00:15:52.517] Server  LOG     ✓ Compiled in 18ms
+[00:15:52.648] Browser ERROR   uncaughtError: ReferenceError: getGuide is not defined
+[00:16:07.874] Server  ERROR   ⨯ ReferenceError: getGuide is not defined
+[00:16:08.345] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:16:08.494] Browser ERROR   uncaughtError: ReferenceError: getGuide is not defined
+[00:16:15.446] Server  WARN    ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:16:15.469] Server  LOG     ✓ Compiled in 45ms
+[00:16:16.124] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:16:16.294] Browser LOG     []
+[00:16:16.294] Browser ERROR   unhandledRejection: TypeError: techs.map is not a function
+[00:16:16.906] Browser LOG     ["react"]
+[00:16:17.577] Browser LOG     ["react","taiwlind"]
+[00:16:50.591] Server  LOG     ✓ Compiled in 17ms
+[00:16:50.687] Browser LOG     ["tailwind"]
+[00:16:50.687] Browser ERROR   unhandledRejection: TypeError: techs.map is not a function
+[00:16:52.863] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:16:53.012] Browser LOG     ["tailwind"]
+[00:16:53.012] Browser ERROR   unhandledRejection: TypeError: techs.map is not a function
+[00:27:17.641] Server  LOG     ✓ Compiled in 17ms
+[00:27:18.634] Browser LOG     ["tailwind","next"]
+[00:27:18.634] Browser ERROR   unhandledRejection: TypeError: techs.map is not a function
+[00:27:20.480] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:27:20.623] Browser LOG     ["tailwind","next"]
+[00:27:20.623] Browser ERROR   unhandledRejection: TypeError: techs.map is not a function
+[00:27:23.005] Browser LOG     ["tailwind","next","react"]
+[00:27:27.027] Browser LOG     ["tailwind","next","react","taiwlind"]
+[00:27:30.281] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:27:30.428] Browser LOG     ["tailwind","next"]
+[00:27:30.428] Browser ERROR   unhandledRejection: TypeError: techs.map is not a function
+[00:27:45.065] Server  LOG     ✓ Compiled in 16ms
+[00:27:47.061] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:27:47.206] Browser LOG     ["tailwind","next"]
+[00:27:47.206] Browser ERROR   unhandledRejection: TypeError: techs.map is not a function
+[00:28:38.107] Server  LOG     ✓ Compiled in 23ms
+[00:28:40.655] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:28:40.801] Browser LOG     ["tailwind","next"]
+[00:28:40.801] Browser ERROR   unhandledRejection: TypeError: techs.map is not a function
+[00:28:41.896] Browser LOG     ["tailwind"]
+[00:28:42.615] Browser LOG     []
+[00:29:40.874] Server  ERROR   ⨯ ./app/page.tsx:4:1
+Module not found: Can't resolve './components/types/backts'
+  2 | import { useeffect, usestate } from "react";
+  3 | import button from "./components/selecting";
+> 4 | import Fetching from "./components/types/backts";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | export default function home() {
+  6 |   const languages = ["git", "next", "react", "node", "tailwind"];
+  7 |  const [selectedindex, setselectedindex] = usestate<string[]>(["tailwind","next"]);
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:29:40.878] Server  ERROR   ⨯ ./app/page.tsx:4:1
+Module not found: Can't resolve './components/types/backts'
+  2 | import { useeffect, usestate } from "react";
+  3 | import button from "./components/selecting";
+> 4 | import Fetching from "./components/types/backts";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | export default function home() {
+  6 |   const languages = ["git", "next", "react", "node", "tailwind"];
+  7 |  const [selectedindex, setselectedindex] = usestate<string[]>(["tailwind","next"]);
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:29:40.880] Server  ERROR   ⨯ ./app/page.tsx:4:1
+Module not found: Can't resolve './components/types/backts'
+  2 | import { useeffect, usestate } from "react";
+  3 | import button from "./components/selecting";
+> 4 | import Fetching from "./components/types/backts";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | export default function home() {
+  6 |   const languages = ["git", "next", "react", "node", "tailwind"];
+  7 |  const [selectedindex, setselectedindex] = usestate<string[]>(["tailwind","next"]);
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:29:40.882] Server  ERROR   ⨯ ./app/page.tsx:4:1
+Module not found: Can't resolve './components/types/backts'
+  2 | import { useeffect, usestate } from "react";
+  3 | import button from "./components/selecting";
+> 4 | import Fetching from "./components/types/backts";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | export default function home() {
+  6 |   const languages = ["git", "next", "react", "node", "tailwind"];
+  7 |  const [selectedindex, setselectedindex] = usestate<string[]>(["tailwind","next"]);
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:29:40.885] Server  ERROR   ⨯ ./app/page.tsx:4:1
+Module not found: Can't resolve './components/types/backts'
+  2 | import { useeffect, usestate } from "react";
+  3 | import button from "./components/selecting";
+> 4 | import Fetching from "./components/types/backts";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | export default function home() {
+  6 |   const languages = ["git", "next", "react", "node", "tailwind"];
+  7 |  const [selectedindex, setselectedindex] = usestate<string[]>(["tailwind","next"]);
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:29:40.886] Server  ERROR   ⨯ ./app/page.tsx:4:1
+Module not found: Can't resolve './components/types/backts'
+  2 | import { useeffect, usestate } from "react";
+  3 | import button from "./components/selecting";
+> 4 | import Fetching from "./components/types/backts";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | export default function home() {
+  6 |   const languages = ["git", "next", "react", "node", "tailwind"];
+  7 |  const [selectedindex, setselectedindex] = usestate<string[]>(["tailwind","next"]);
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:29:40.887] Server  ERROR   ⨯ ./app/page.tsx:4:1
+Module not found: Can't resolve './components/types/backts'
+  2 | import { useeffect, usestate } from "react";
+  3 | import button from "./components/selecting";
+> 4 | import Fetching from "./components/types/backts";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | export default function home() {
+  6 |   const languages = ["git", "next", "react", "node", "tailwind"];
+  7 |  const [selectedindex, setselectedindex] = usestate<string[]>(["tailwind","next"]);
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:29:40.890] Server  ERROR   ⨯ ./app/page.tsx:4:1
+Module not found: Can't resolve './components/types/backts'
+  2 | import { useeffect, usestate } from "react";
+  3 | import button from "./components/selecting";
+> 4 | import Fetching from "./components/types/backts";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | export default function home() {
+  6 |   const languages = ["git", "next", "react", "node", "tailwind"];
+  7 |  const [selectedindex, setselectedindex] = usestate<string[]>(["tailwind","next"]);
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:29:40.892] Server  ERROR   ⨯ ./app/page.tsx:4:1
+Module not found: Can't resolve './components/types/backts'
+  2 | import { useeffect, usestate } from "react";
+  3 | import button from "./components/selecting";
+> 4 | import Fetching from "./components/types/backts";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | export default function home() {
+  6 |   const languages = ["git", "next", "react", "node", "tailwind"];
+  7 |  const [selectedindex, setselectedindex] = usestate<string[]>(["tailwind","next"]);
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:29:40.893] Server  ERROR   ⨯ ./app/page.tsx:4:1
+Module not found: Can't resolve './components/types/backts'
+  2 | import { useeffect, usestate } from "react";
+  3 | import button from "./components/selecting";
+> 4 | import Fetching from "./components/types/backts";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | export default function home() {
+  6 |   const languages = ["git", "next", "react", "node", "tailwind"];
+  7 |  const [selectedindex, setselectedindex] = usestate<string[]>(["tailwind","next"]);
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:29:40.894] Server  ERROR   ⨯ ./app/page.tsx:4:1
+Module not found: Can't resolve './components/types/backts'
+  2 | import { useeffect, usestate } from "react";
+  3 | import button from "./components/selecting";
+> 4 | import Fetching from "./components/types/backts";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | export default function home() {
+  6 |   const languages = ["git", "next", "react", "node", "tailwind"];
+  7 |  const [selectedindex, setselectedindex] = usestate<string[]>(["tailwind","next"]);
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:29:40.895] Server  ERROR   ⨯ ./app/page.tsx:4:1
+Module not found: Can't resolve './components/types/backts'
+  2 | import { useeffect, usestate } from "react";
+  3 | import button from "./components/selecting";
+> 4 | import Fetching from "./components/types/backts";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | export default function home() {
+  6 |   const languages = ["git", "next", "react", "node", "tailwind"];
+  7 |  const [selectedindex, setselectedindex] = usestate<string[]>(["tailwind","next"]);
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:29:40.897] Server  ERROR   ⨯ ./app/page.tsx:4:1
+Module not found: Can't resolve './components/types/backts'
+  2 | import { useeffect, usestate } from "react";
+  3 | import button from "./components/selecting";
+> 4 | import Fetching from "./components/types/backts";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | export default function home() {
+  6 |   const languages = ["git", "next", "react", "node", "tailwind"];
+  7 |  const [selectedindex, setselectedindex] = usestate<string[]>(["tailwind","next"]);
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:29:40.898] Server  ERROR   ⨯ ./app/page.tsx:4:1
+Module not found: Can't resolve './components/types/backts'
+  2 | import { useeffect, usestate } from "react";
+  3 | import button from "./components/selecting";
+> 4 | import Fetching from "./components/types/backts";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | export default function home() {
+  6 |   const languages = ["git", "next", "react", "node", "tailwind"];
+  7 |  const [selectedindex, setselectedindex] = usestate<string[]>(["tailwind","next"]);
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:29:40.899] Server  ERROR   ⨯ ./app/page.tsx:4:1
+Module not found: Can't resolve './components/types/backts'
+  2 | import { useeffect, usestate } from "react";
+  3 | import button from "./components/selecting";
+> 4 | import Fetching from "./components/types/backts";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | export default function home() {
+  6 |   const languages = ["git", "next", "react", "node", "tailwind"];
+  7 |  const [selectedindex, setselectedindex] = usestate<string[]>(["tailwind","next"]);
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:29:40.900] Server  ERROR   ⨯ ./app/page.tsx:4:1
+Module not found: Can't resolve './components/types/backts'
+  2 | import { useeffect, usestate } from "react";
+  3 | import button from "./components/selecting";
+> 4 | import Fetching from "./components/types/backts";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | export default function home() {
+  6 |   const languages = ["git", "next", "react", "node", "tailwind"];
+  7 |  const [selectedindex, setselectedindex] = usestate<string[]>(["tailwind","next"]);
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:29:40.902] Server  ERROR   ⨯ ./app/page.tsx:4:1
+Module not found: Can't resolve './components/types/backts'
+  2 | import { useeffect, usestate } from "react";
+  3 | import button from "./components/selecting";
+> 4 | import Fetching from "./components/types/backts";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | export default function home() {
+  6 |   const languages = ["git", "next", "react", "node", "tailwind"];
+  7 |  const [selectedindex, setselectedindex] = usestate<string[]>(["tailwind","next"]);
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:29:40.904] Server  ERROR   ⨯ ./app/page.tsx:4:1
+Module not found: Can't resolve './components/types/backts'
+  2 | import { useeffect, usestate } from "react";
+  3 | import button from "./components/selecting";
+> 4 | import Fetching from "./components/types/backts";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | export default function home() {
+  6 |   const languages = ["git", "next", "react", "node", "tailwind"];
+  7 |  const [selectedindex, setselectedindex] = usestate<string[]>(["tailwind","next"]);
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:29:40.904] Server  ERROR   ⨯ ./app/page.tsx:4:1
+Module not found: Can't resolve './components/types/backts'
+  2 | import { useeffect, usestate } from "react";
+  3 | import button from "./components/selecting";
+> 4 | import Fetching from "./components/types/backts";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | export default function home() {
+  6 |   const languages = ["git", "next", "react", "node", "tailwind"];
+  7 |  const [selectedindex, setselectedindex] = usestate<string[]>(["tailwind","next"]);
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:29:40.905] Server  ERROR   ⨯ ./app/page.tsx:4:1
+Module not found: Can't resolve './components/types/backts'
+  2 | import { useeffect, usestate } from "react";
+  3 | import button from "./components/selecting";
+> 4 | import Fetching from "./components/types/backts";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | export default function home() {
+  6 |   const languages = ["git", "next", "react", "node", "tailwind"];
+  7 |  const [selectedindex, setselectedindex] = usestate<string[]>(["tailwind","next"]);
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:29:40.907] Server  ERROR   ⨯ ./app/page.tsx:4:1
+Module not found: Can't resolve './components/types/backts'
+  2 | import { useeffect, usestate } from "react";
+  3 | import button from "./components/selecting";
+> 4 | import Fetching from "./components/types/backts";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | export default function home() {
+  6 |   const languages = ["git", "next", "react", "node", "tailwind"];
+  7 |  const [selectedindex, setselectedindex] = usestate<string[]>(["tailwind","next"]);
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:29:40.908] Server  ERROR   ⨯ ./app/page.tsx:4:1
+Module not found: Can't resolve './components/types/backts'
+  2 | import { useeffect, usestate } from "react";
+  3 | import button from "./components/selecting";
+> 4 | import Fetching from "./components/types/backts";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | export default function home() {
+  6 |   const languages = ["git", "next", "react", "node", "tailwind"];
+  7 |  const [selectedindex, setselectedindex] = usestate<string[]>(["tailwind","next"]);
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:29:40.909] Server  ERROR   ⨯ ./app/page.tsx:4:1
+Module not found: Can't resolve './components/types/backts'
+  2 | import { useeffect, usestate } from "react";
+  3 | import button from "./components/selecting";
+> 4 | import Fetching from "./components/types/backts";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | export default function home() {
+  6 |   const languages = ["git", "next", "react", "node", "tailwind"];
+  7 |  const [selectedindex, setselectedindex] = usestate<string[]>(["tailwind","next"]);
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:29:40.911] Server  ERROR   ⨯ ./app/page.tsx:4:1
+Module not found: Can't resolve './components/types/backts'
+  2 | import { useeffect, usestate } from "react";
+  3 | import button from "./components/selecting";
+> 4 | import Fetching from "./components/types/backts";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | export default function home() {
+  6 |   const languages = ["git", "next", "react", "node", "tailwind"];
+  7 |  const [selectedindex, setselectedindex] = usestate<string[]>(["tailwind","next"]);
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:29:40.912] Server  ERROR   ⨯ ./app/page.tsx:4:1
+Module not found: Can't resolve './components/types/backts'
+  2 | import { useeffect, usestate } from "react";
+  3 | import button from "./components/selecting";
+> 4 | import Fetching from "./components/types/backts";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | export default function home() {
+  6 |   const languages = ["git", "next", "react", "node", "tailwind"];
+  7 |  const [selectedindex, setselectedindex] = usestate<string[]>(["tailwind","next"]);
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:29:40.913] Server  ERROR   ⨯ ./app/page.tsx:4:1
+Module not found: Can't resolve './components/types/backts'
+  2 | import { useeffect, usestate } from "react";
+  3 | import button from "./components/selecting";
+> 4 | import Fetching from "./components/types/backts";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | export default function home() {
+  6 |   const languages = ["git", "next", "react", "node", "tailwind"];
+  7 |  const [selectedindex, setselectedindex] = usestate<string[]>(["tailwind","next"]);
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:29:40.913] Server  ERROR   ⨯ ./app/page.tsx:4:1
+Module not found: Can't resolve './components/types/backts'
+  2 | import { useeffect, usestate } from "react";
+  3 | import button from "./components/selecting";
+> 4 | import Fetching from "./components/types/backts";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | export default function home() {
+  6 |   const languages = ["git", "next", "react", "node", "tailwind"];
+  7 |  const [selectedindex, setselectedindex] = usestate<string[]>(["tailwind","next"]);
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:29:40.914] Server  ERROR   ⨯ ./app/page.tsx:4:1
+Module not found: Can't resolve './components/types/backts'
+  2 | import { useeffect, usestate } from "react";
+  3 | import button from "./components/selecting";
+> 4 | import Fetching from "./components/types/backts";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | export default function home() {
+  6 |   const languages = ["git", "next", "react", "node", "tailwind"];
+  7 |  const [selectedindex, setselectedindex] = usestate<string[]>(["tailwind","next"]);
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:29:40.916] Server  ERROR   ⨯ ./app/page.tsx:4:1
+Module not found: Can't resolve './components/types/backts'
+  2 | import { useeffect, usestate } from "react";
+  3 | import button from "./components/selecting";
+> 4 | import Fetching from "./components/types/backts";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | export default function home() {
+  6 |   const languages = ["git", "next", "react", "node", "tailwind"];
+  7 |  const [selectedindex, setselectedindex] = usestate<string[]>(["tailwind","next"]);
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:29:40.917] Server  ERROR   ⨯ ./app/page.tsx:4:1
+Module not found: Can't resolve './components/types/backts'
+  2 | import { useeffect, usestate } from "react";
+  3 | import button from "./components/selecting";
+> 4 | import Fetching from "./components/types/backts";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | export default function home() {
+  6 |   const languages = ["git", "next", "react", "node", "tailwind"];
+  7 |  const [selectedindex, setselectedindex] = usestate<string[]>(["tailwind","next"]);
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:29:40.918] Server  ERROR   ⨯ ./app/page.tsx:4:1
+Module not found: Can't resolve './components/types/backts'
+  2 | import { useeffect, usestate } from "react";
+  3 | import button from "./components/selecting";
+> 4 | import Fetching from "./components/types/backts";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | export default function home() {
+  6 |   const languages = ["git", "next", "react", "node", "tailwind"];
+  7 |  const [selectedindex, setselectedindex] = usestate<string[]>(["tailwind","next"]);
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:29:40.918] Server  ERROR   ⨯ ./app/page.tsx:4:1
+Module not found: Can't resolve './components/types/backts'
+  2 | import { useeffect, usestate } from "react";
+  3 | import button from "./components/selecting";
+> 4 | import Fetching from "./components/types/backts";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | export default function home() {
+  6 |   const languages = ["git", "next", "react", "node", "tailwind"];
+  7 |  const [selectedindex, setselectedindex] = usestate<string[]>(["tailwind","next"]);
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:29:40.920] Server  LOG     ✓ Compiled in 82ms
+[00:29:41.875] Browser ERROR   ./app/page.tsx:4:1
+Module not found: Can't resolve './components/types/backts'
+  2 | import { useeffect, usestate } from "react";
+  3 | import button from "./components/selecting";
+> 4 | import Fetching from "./components/types/backts";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | export default function home() {
+  6 |   const languages = ["git", "next", "react", "node", "tailwind"];
+  7 |  const [selectedindex, setselectedindex] = usestate<string[]>(["tailwind","next"]);
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[00:29:50.510] Server  ERROR   ⨯ ./app/page.tsx:4:1
+Module not found: Can't resolve './components/types/backts'
+  2 | import { useeffect, usestate } from "react";
+  3 | import button from "./components/selecting";
+> 4 | import Fetching from "./components/types/backts";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | export default function home() {
+  6 |   const languages = ["git", "next", "react", "node", "tailwind"];
+  7 |  const [selectedindex, setselectedindex] = usestate<string[]>(["tailwind","next"]);
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:29:51.244] Browser ERROR   uncaughtError: Error: ./app/page.tsx:4:1
+Module not found: Can't resolve './components/types/backts'
+  2 | import { useeffect, usestate } from "react";
+  3 | import button from "./components/selecting";
+> 4 | import Fetching from "./components/types/backts";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | export default function home() {
+  6 |   const languages = ["git", "next", "react", "node", "tailwind"];
+  7 |  const [selectedindex, setselectedindex] = usestate<string[]>(["tailwind","next"]);
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:29:51.355] Browser ERROR   ./app/page.tsx:4:1
+Module not found: Can't resolve './components/types/backts'
+  2 | import { useeffect, usestate } from "react";
+  3 | import button from "./components/selecting";
+> 4 | import Fetching from "./components/types/backts";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | export default function home() {
+  6 |   const languages = ["git", "next", "react", "node", "tailwind"];
+  7 |  const [selectedindex, setselectedindex] = usestate<string[]>(["tailwind","next"]);
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[00:29:51.460] Browser ERROR   ./app/page.tsx:4:1
+Module not found: Can't resolve './components/types/backts'
+  2 | import { useeffect, usestate } from "react";
+  3 | import button from "./components/selecting";
+> 4 | import Fetching from "./components/types/backts";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | export default function home() {
+  6 |   const languages = ["git", "next", "react", "node", "tailwind"];
+  7 |  const [selectedindex, setselectedindex] = usestate<string[]>(["tailwind","next"]);
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
