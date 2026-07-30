@@ -1,11 +1,10 @@
 "use client";
-import { useeffect, usestate } from "react";
-import button from "./components/selecting";
-import Fetching from "./components/types/backts";
+import { useEffect, useState } from "react";
+import Fetching from "./Components/types/backts";
 export default function home() {
   const languages = ["git", "next", "react", "node", "tailwind"];
- const [selectedindex, setselectedindex] = usestate<string[]>(["tailwind","next"]);
-
+ const [selectedindex, setselectedindex] = useState<string[]>([]);
+  const [show, setShow] = useState(false);
 
  function select(position: string) {
   setselectedindex(prev =>
@@ -17,7 +16,7 @@ export default function home() {
 
 }
 
-useeffect(() => {
+useEffect(() => {
  console.log(selectedindex);
 },[selectedindex])
 
@@ -27,7 +26,7 @@ useeffect(() => {
       	{languages.map((item,index) => (
          <li
           key={index}
-          onclick={() => select(item)}
+          onClick={() => select(item)}
           style={{
             cursor: 'pointer',
             backgroundcolor: selectedindex.includes(item) ? 'lightblue' : 'white',
@@ -40,7 +39,12 @@ useeffect(() => {
 
  
 
-      <Fetching techs={["tailwind","next"]} />
-    </>
+    <button onClick={() => setShow(true)}>
+    Click
+    </button>
+
+    {show && <Fetching techs={selectedindex} />
+}
+        </>
   );
 }
