@@ -1,42 +1,9 @@
 (globalThis.TURBOPACK || (globalThis.TURBOPACK = [])).push([typeof document === "object" ? document.currentScript : undefined,
-"[project]/app/Components/types/backts.ts [app-client] (ecmascript)", ((__turbopack_context__) => {
-"use strict";
+"[project]/app/Components/types/backts.ts [app-client] (ecmascript)", ((__turbopack_context__, module, exports) => {
 
-__turbopack_context__.s([
-    "default",
-    ()=>Fetching
-]);
-var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/compiled/react/index.js [app-client] (ecmascript)");
-var _s = __turbopack_context__.k.signature();
-"use client";
-;
-function Fetching({ techs }) {
-    _s();
-    const [guides, setGuides] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])([]);
-    (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useEffect"])({
-        "Fetching.useEffect": ()=>{
-            async function fetchGuides() {
-                const results = await Promise.all(techs.map({
-                    "Fetching.useEffect.fetchGuides": async (tech)=>{
-                        const res = await fetch(`http://localhost:5000/${tech}`);
-                        return res.json();
-                    }
-                }["Fetching.useEffect.fetchGuides"]));
-                setGuides(results);
-                console.log(results[1].id);
-            }
-            fetchGuides();
-        }
-    }["Fetching.useEffect"], []);
-    return guides;
-}
-_s(Fetching, "aR0nxQQqviR5mxlWKSyGU7d73IU=");
-_c = Fetching;
-var _c;
-__turbopack_context__.k.register(_c, "Fetching");
-if (typeof globalThis.$RefreshHelpers$ === 'object' && globalThis.$RefreshHelpers !== null) {
-    __turbopack_context__.k.registerExports(__turbopack_context__.m, globalThis.$RefreshHelpers$);
-}
+const e = new Error("Could not parse module '[project]/app/Components/types/backts.ts'\n\nExpected '>', got 'ident'");
+e.code = 'MODULE_UNPARSABLE';
+throw e;
 }),
 "[project]/app/page.tsx [app-client] (ecmascript)", ((__turbopack_context__) => {
 "use strict";
