@@ -1,6 +1,7 @@
 "use client";
 import { useEffect, useState } from "react";
 import Fetching from "./Components/types/backts";
+import Technologies from "./Components/Technologies";
 export default function home() {
   const languages = ["git", "next", "react", "node", "tailwind"];
  const [selectedindex, setselectedindex] = useState<string[]>([]);
@@ -22,19 +23,10 @@ useEffect(() => {
 
   return (
     <>
-	<ul>
+	<ul className="flex justify-center items-center gap-4 m-8">
       	{languages.map((item,index) => (
-         <li
-          key={index}
-          onClick={() => select(item)}
-          style={{
-            cursor: 'pointer',
-            backgroundcolor: selectedindex.includes(item) ? 'lightblue' : 'white',
-            padding: '8px'
-          }}>
-          {item}
-        </li>
-      ))}
+       <Technologies lang={item} key={item} onClick={() => select(item)} />
+        ))}
     </ul>
 
  
