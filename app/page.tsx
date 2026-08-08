@@ -2,10 +2,10 @@
 import { useEffect, useState } from "react";
 import Fetching from "./Components/types/backts";
 import Technologies from "./Components/Technologies";
+import {TechList} from "./Data/TechList.ts";
 export default function home() {
-  const languages = ["git", "next", "react", "node", "tailwind"];
- const [selectedindex, setselectedindex] = useState<string[]>([]);
-  const [show, setShow] = useState(false);
+    const [selectedindex, setselectedindex] = useState<string[]>([]);
+    const [show, setShow] = useState(false);
 
  function select(position: string) {
   setselectedindex(prev =>
@@ -23,9 +23,9 @@ useEffect(() => {
 
   return (
     <>
-	<ul className="flex justify-center items-center gap-4 m-8">
-      	{languages.map((item,index) => (
-       <Technologies lang={item} key={item} onClick={() => select(item)} />
+	<ul className="flex justify-center items-center gap-4 m-8 flex-wrap h-fit">
+      	{TechList.map((item) => (
+       <Technologies lang={item.name} key={item.name} onClick={() => select(item.name)} />
         ))}
     </ul>
 

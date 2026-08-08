@@ -1,9 +1,10 @@
 "use client"
 import React from 'react';
 import styled from 'styled-components';
-
+import {useState} from 'react';
 export default function Technologies({lang, onClick}){
-  return (
+	const [active, setActive] = useState(false); 
+return (
     <StyledWrapper>
       <div className="button-container">
        <a
@@ -12,12 +13,17 @@ export default function Technologies({lang, onClick}){
           onClick={(e) => {
             e.preventDefault(); // prevents navigation
             onClick(lang);
+	    setActive(!active);
           }}
-        >          <div className="openai-logo">
-            <svg className="openai-icon" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-              <path d="M22.2819 9.8211a5.9847 5.9847 0 0 0-.5157-4.9108 6.0462 6.0462 0 0 0-6.5098-2.9A6.0651 6.0651 0 0 0 4.9807 4.1818a5.9847 5.9847 0 0 0-3.9977 2.9 6.0462 6.0462 0 0 0 .7427 7.0966 5.98 5.98 0 0 0 .511 4.9107 6.051 6.051 0 0 0 6.5146 2.9001A5.9847 5.9847 0 0 0 13.2599 24a6.0557 6.0557 0 0 0 5.7718-4.2058 5.9894 5.9894 0 0 0 3.9977-2.9001 6.0557 6.0557 0 0 0-.7475-7.0729zm-9.022 12.6081a4.4755 4.4755 0 0 1-2.8764-1.0408l.1419-.0804 4.7783-2.7582a.7948.7948 0 0 0 .3927-.6813v-6.7369l2.02 1.1686a.071.071 0 0 1 .038.052v5.5826a4.504 4.504 0 0 1-4.4945 4.4944zm-9.6607-4.1254a4.4708 4.4708 0 0 1-.5346-3.0137l.142.0852 4.783 2.7582a.7712.7712 0 0 0 .7806 0l5.8428-3.3685v2.3324a.0804.0804 0 0 1-.0332.0615L9.74 19.9502a4.4992 4.4992 0 0 1-6.1408-1.6464zM2.3408 7.8956a4.485 4.485 0 0 1 2.3655-1.9728V11.6a.7664.7664 0 0 0 .3879.6765l5.8144 3.3543-2.0201 1.1685a.0757.0757 0 0 1-.071 0l-4.8303-2.7865A4.504 4.504 0 0 1 2.3408 7.8956zm16.0993 3.8558L12.5907 8.3829 14.6108 7.2144a.0757.0757 0 0 1 .071 0l4.8303 2.7913a4.4944 4.4944 0 0 1-.6765 8.1042v-5.6772a.79.79 0 0 0-.3927-.6813zm2.0107-3.0231l-.142-.0852-4.7735-2.7818a.7759.7759 0 0 0-.7854 0L9.409 9.2297V6.8974a.0662.0662 0 0 1 .0284-.0615l4.8303-2.7866a4.4992 4.4992 0 0 1 6.6802 4.66zM8.3065 12.863l-2.02-1.1638a.0804.0804 0 0 1-.038-.0567V6.0742a4.4992 4.4992 0 0 1 7.3757-3.4537l-.142.0805L8.704 5.459a.7948.7948 0 0 0-.3927.6813zm1.0976-2.3654l2.602-1.4998 2.6069 1.4998v2.9994l-2.5974 1.4997-2.6067-1.4997Z" fill="#10A37F" />
-            </svg>
-          </div>
+	   className={`brutalist-button button-2 ${active ? "active" : ""}`} 
+        >         
+      <div className="openai-logo">
+              <img
+  src={`https://icon.icepanel.io/Technology/svg/${lang}.svg`}
+  alt="Next.js"
+  className="openai-icon"
+/>     
+      </div>
           <div className="button-text">
             <span>Powered By</span>
             <span>{lang}</span>
@@ -35,7 +41,7 @@ const StyledWrapper = styled.div`
     gap: 20px;
   }
 
-  /* Common styles for both buttons */
+  /* Common styles */
   .brutalist-button {
     display: flex;
     flex-direction: column;
@@ -52,10 +58,10 @@ const StyledWrapper = styled.div`
     transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
   }
 
-  /* Styles for the second button */
+  /* Button 2 */
   .button-2 {
     width: 142px;
-    height: 142px; /* Added to maintain square shape */
+    height: 142px;
     background-color: #1e5645;
     border: 3px solid #000000;
     border-radius: 8px;
@@ -63,13 +69,15 @@ const StyledWrapper = styled.div`
     box-shadow: 4px 4px 0px #000000;
     overflow: hidden;
     transition: all 0.3s ease;
-    position: relative; /* Added to ensure proper positioning of pseudo-elements */
+    position: relative;
+
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
   }
 
+  /* Black circle animation */
   .button-2::before {
     content: "";
     position: absolute;
@@ -83,10 +91,13 @@ const StyledWrapper = styled.div`
     transition: transform 0.5s ease-out;
   }
 
-  .button-2:hover::before {
+  /* Hover + clicked */
+  .button-2:hover::before,
+  .button-2.active::before {
     transform: translateX(-50%) scale(1);
   }
 
+  /* Glass animation */
   .button-2::after {
     content: "";
     position: absolute;
@@ -116,48 +127,35 @@ const StyledWrapper = styled.div`
       transform: translateX(-100%) translateY(-100%) rotate(45deg);
       opacity: 0.7;
     }
+
     100% {
       transform: translateX(100%) translateY(100%) rotate(45deg);
       opacity: 0;
     }
   }
 
-  .button-2:hover {
+  /* Hover + clicked button movement */
+  .button-2:hover,
+  .button-2.active {
     transform: translate(-2px, -2px);
-    box-shadow: 6px 6px 0px #1;
+    box-shadow: 6px 6px 0px #000000;
   }
 
+  /* Actual click/press effect */
   .button-2:active {
     transform: translate(2px, 2px);
     box-shadow: 2px 2px 0px #000000;
   }
 
-  /* Ensure content stays on top */
+  /* Keep content above pseudo-elements */
   .button-2 .openai-logo,
   .button-2 .button-text {
     position: relative;
     z-index: 1;
     transition: all 0.3s ease;
   }
-  /* ... (styles for OpenAI logo and text remain the same) ... */
 
-  /* Hover effects */
-  .brutalist-button:hover .openai-logo {
-    transform: translateY(-10px);
-  }
-
-  .brutalist-button:hover .openai-icon {
-    width: 40px;
-    height: 40px;
-  }
-
-  .bruta.brutalist-button:hover .openai-text {
-    opacity: 1;
-    max-height: 60px;
-    margin-top: 8px;
-  }
-
-  /* Styles for the OpenAI logo and text */
+  /* Logo */
   .openai-logo {
     display: flex;
     flex-direction: column;
@@ -167,12 +165,29 @@ const StyledWrapper = styled.div`
     z-index: 3;
   }
 
+  /* Logo hover + active */
+  .brutalist-button:hover .openai-logo,
+  .brutalist-button.active .openai-logo {
+    transform: translateY(-10px);
+  }
+
+  /* Icon */
   .openai-icon {
     width: 64px;
     height: 64px;
     transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
   }
 
+  /* Icon hover + active */
+  .brutalist-button:hover .openai-icon,
+  .brutalist-button.active .openai-icon {
+    width: 40px;
+    height: 40px;
+    animation: spin-and-zoom
+      2s cubic-bezier(0.25, 0.8, 0.25, 1) infinite;
+  }
+
+  /* OpenAI text */
   .openai-text {
     font-size: 24px;
     letter-spacing: 0.5px;
@@ -182,6 +197,16 @@ const StyledWrapper = styled.div`
     overflow: hidden;
   }
 
+  /* Text hover + active */
+  .brutalist-button:hover .openai-text,
+  .brutalist-button.active .openai-text {
+    opacity: 1;
+    max-height: 60px;
+    margin-top: 8px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+  }
+
+  /* Button text */
   .button-text {
     display: flex;
     flex-direction: column;
@@ -195,6 +220,14 @@ const StyledWrapper = styled.div`
     z-index: 3;
   }
 
+  /* Button text hover + active */
+  .brutalist-button:hover .button-text,
+  .brutalist-button.active .button-text {
+    opacity: 1;
+    max-height: 60px;
+    margin-top: 8px;
+  }
+
   .button-text span:first-child {
     font-size: 12px;
     font-weight: normal;
@@ -204,48 +237,11 @@ const StyledWrapper = styled.div`
     font-size: 16px;
   }
 
-  /* Hover effects */
-  .brutalist-button:hover .openai-logo {
-    transform: translateY(-10px);
-  }
-
-  .brutalist-button:hover .openai-icon {
-    width: 40px;
-    height: 40px;
-  }
-
-  .brutalist-button:hover .button-text,
-  .brutalist-button:hover .openai-text {
-    opacity: 1;
-    max-height: 60px;
-    margin-top: 8px;
-  }
-
-  /* Animation for the OpenAI logo */
-  @keyframes spin-and-zoom {
-    0% {
-      transform: rotate(0deg) scale(1);
-    }
-    50% {
-      transform: rotate(180deg) scale(1.1);
-    }
-    100% {
-      transform: rotate(360deg) scale(1);
-    }
-  }
-
-  .brutalist-button:hover .openai-icon {
-    animation: spin-and-zoom 2s cubic-bezier(0.25, 0.8, 0.25, 1) infinite;
-  }
-
-  .brutalist-button:hover .openai-text {
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
-  }
-
+  
+  /* Clicked icon/text */
   .brutalist-button:active .openai-icon,
   .brutalist-button:active .openai-text,
   .brutalist-button:active .button-text {
     transform: scale(0.95);
-  }`;
-
-
+  }
+`;

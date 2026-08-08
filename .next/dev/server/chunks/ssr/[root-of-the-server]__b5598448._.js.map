@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": [],
-  "sections": [
-    {"offset": {"line": 18, "column": 0}, "map": {"version":3,"sources":["file:///home/mohamed/Projects/Software/JumpStart/app/Components/types/backts.ts"],"sourcesContent":["export default async function Test() {\n  const res = await fetch(\"http://127.0.0.1:5000\");\n  const data = res.json();\n  return data;\n}\n"],"names":[],"mappings":";;;;AAAe,eAAe;IAC5B,MAAM,MAAM,MAAM,MAAM;IACxB,MAAM,OAAO,IAAI,IAAI;IACrB,OAAO;AACT"}},
-    {"offset": {"line": 31, "column": 0}, "map": {"version":3,"sources":["file:///home/mohamed/Projects/Software/JumpStart/app/page.tsx"],"sourcesContent":["import Test from \"./Components/types/backts\";\nexport default async function Home() {\n  console.log(Test());\n  return <></>;\n}\n"],"names":[],"mappings":";;;;;AAAA;;;AACe,eAAe;IAC5B,QAAQ,GAAG,CAAC,IAAA,+IAAI;IAChB,qBAAO;AACT"}}]
-}
