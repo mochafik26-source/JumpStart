@@ -1,0 +1,9 @@
+{
+  "id": "bootstrap",
+  "name": "Bootstrap",
+  "install": {
+    "arch": ["sudo pacman -Syu npm", "npm install bootstrap"],
+    "all": ["npm install bootstrap"]
+  },
+  "verify": []
+}

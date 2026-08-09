@@ -1,0 +1,8 @@
+{
+  "id": "flutter",
+  "name": "Flutter",
+  "install": {
+    "arch": ["sudo pacman -Syu flutter"]
+  },
+  "verify": ["flutter --version"]
+}

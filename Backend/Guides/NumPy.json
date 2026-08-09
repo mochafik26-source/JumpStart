@@ -1,0 +1,9 @@
+{
+  "id": "numpy",
+  "name": "NumPy",
+  "install": {
+    "arch": ["sudo pacman -Syu python python-pip", "pip install numpy"],
+    "all": ["pip install numpy"]
+  },
+  "verify": ["python3 -c \"import numpy; print(numpy.__version__)\""]
+}

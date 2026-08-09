@@ -1,0 +1,11 @@
+{
+  "id": "java",
+  "name": "Java",
+  "install": {
+    "ubuntu": ["sudo apt update", "sudo apt install -y default-jdk"],
+    "macos": ["brew install openjdk"],
+    "windows": ["Download and install an OpenJDK distribution from https://adoptium.net/"]
+    ,"arch": ["sudo pacman -Syu jdk-openjdk"]
+  },
+  "verify": ["java -version", "javac -version"]
+}

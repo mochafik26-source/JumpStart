@@ -1,0 +1,9 @@
+{
+  "id": "scikit-learn",
+  "name": "Scikit-learn",
+  "install": {
+    "arch": ["sudo pacman -Syu python python-pip", "pip install scikit-learn"],
+    "all": ["pip install scikit-learn"]
+  },
+  "verify": ["python3 -c \"import sklearn; print(sklearn.__version__)\""]
+}

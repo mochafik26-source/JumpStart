@@ -2,6 +2,7 @@
   "id": "typescript",
   "name": "TypeScript",
   "install": {
+    "arch": ["sudo pacman -Syu nodejs npm", "npm install -D typescript"],
     "all": ["npm install -D typescript"]
   },
   "verify": ["npx tsc --version"]

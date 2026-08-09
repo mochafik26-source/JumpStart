@@ -1,0 +1,8 @@
+{
+  "id": "gradle",
+  "name": "Gradle",
+  "install": {
+    "arch": ["sudo pacman -Syu gradle"]
+  },
+  "verify": ["gradle -v"]
+}

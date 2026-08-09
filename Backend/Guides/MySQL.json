@@ -1,0 +1,8 @@
+{
+  "id": "mysql",
+  "name": "MySQL (MariaDB)",
+  "install": {
+    "arch": ["sudo pacman -Syu mariadb"]
+  },
+  "verify": ["mysql --version"]
+}

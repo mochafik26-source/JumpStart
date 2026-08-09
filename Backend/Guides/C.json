@@ -1,0 +1,11 @@
+{
+  "id": "c",
+  "name": "C",
+  "install": {
+    "ubuntu": ["sudo apt update", "sudo apt install -y build-essential"],
+    "macos": ["xcode-select --install"],
+    "windows": ["Install MinGW or Visual Studio with C toolchain"]
+    ,"arch": ["sudo pacman -Syu base-devel"]
+  },
+  "verify": ["gcc --version"]
+}

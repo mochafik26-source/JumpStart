@@ -1,0 +1,9 @@
+{
+  "id": "mqtt",
+  "name": "MQTT",
+  "install": {
+    "arch": ["sudo pacman -Syu mosquitto"],
+    "all": ["See https://mqtt.org/ for brokers and clients"]
+  },
+  "verify": ["mosquitto -h"]
+}

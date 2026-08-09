@@ -1,0 +1,11 @@
+{
+  "id": "cpp",
+  "name": "C++",
+  "install": {
+    "ubuntu": ["sudo apt update", "sudo apt install -y build-essential"],
+    "macos": ["xcode-select --install"],
+    "windows": ["Install Visual Studio or MinGW with C++ toolchain"]
+    ,"arch": ["sudo pacman -Syu base-devel"]
+  },
+  "verify": ["g++ --version"]
+}

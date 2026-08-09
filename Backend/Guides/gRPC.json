@@ -1,0 +1,9 @@
+{
+  "id": "grpc",
+  "name": "gRPC",
+  "install": {
+    "arch": ["sudo pacman -Syu protobuf grpc"],
+    "all": ["See https://grpc.io/docs/ for language-specific setup"]
+  },
+  "verify": []
+}

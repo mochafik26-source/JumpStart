@@ -25,7 +25,6 @@ return (
 />     
       </div>
           <div className="button-text">
-            <span>Powered By</span>
             <span>{lang}</span>
           </div>
         </a>

@@ -1,0 +1,9 @@
+{
+  "id": "django",
+  "name": "Django",
+  "install": {
+    "arch": ["sudo pacman -Syu python python-pip", "pip install Django"],
+    "all": ["pip install Django"]
+  },
+  "verify": ["python3 -m django --version"]
+}

@@ -1,0 +1,9 @@
+{
+  "id": "drizzle",
+  "name": "Drizzle",
+  "install": {
+    "arch": ["sudo pacman -Syu nodejs npm", "npm install drizzle-orm"],
+    "all": ["npm install drizzle-orm"]
+  },
+  "verify": []
+}

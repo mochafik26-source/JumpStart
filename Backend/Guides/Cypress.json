@@ -1,0 +1,9 @@
+{
+  "id": "cypress",
+  "name": "Cypress",
+  "install": {
+    "arch": ["sudo pacman -Syu nodejs npm", "npm install -D cypress"],
+    "all": ["npm install -D cypress"]
+  },
+  "verify": ["npx cypress --version"]
+}

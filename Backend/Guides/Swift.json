@@ -1,0 +1,9 @@
+{
+  "id": "swift",
+  "name": "Swift",
+  "install": {
+    "arch": ["sudo pacman -Syu swift"],
+    "all": ["Download and install Swift from https://swift.org/download/"]
+  },
+  "verify": ["swift --version"]
+}

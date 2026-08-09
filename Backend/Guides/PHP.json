@@ -1,0 +1,11 @@
+{
+  "id": "php",
+  "name": "PHP",
+  "install": {
+    "ubuntu": ["sudo apt update", "sudo apt install -y php"],
+    "macos": ["brew install php"],
+    "windows": ["Download PHP from https://windows.php.net/"]
+    ,"arch": ["sudo pacman -Syu php"]
+  },
+  "verify": ["php -v"]
+}

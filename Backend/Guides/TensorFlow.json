@@ -1,0 +1,8 @@
+{
+  "id": "tensorflow",
+  "name": "TensorFlow",
+  "install": {
+    "arch": ["sudo pacman -Syu python python-pip", "pip install tensorflow"]
+  },
+  "verify": ["python3 -c \"import tensorflow as tf; print(tf.__version__)\""]
+}

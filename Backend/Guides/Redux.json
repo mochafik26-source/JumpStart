@@ -1,0 +1,9 @@
+{
+  "id": "redux",
+  "name": "Redux",
+  "install": {
+    "arch": ["sudo pacman -Syu nodejs npm", "npm install redux react-redux"],
+    "all": ["npm install redux react-redux"]
+  },
+  "verify": []
+}

@@ -1,0 +1,11 @@
+{
+  "id": "ruby",
+  "name": "Ruby",
+  "install": {
+    "ubuntu": ["sudo apt update", "sudo apt install -y ruby-full"],
+    "macos": ["brew install ruby"],
+    "windows": ["Use RubyInstaller from https://rubyinstaller.org/"]
+    ,"arch": ["sudo pacman -Syu ruby"]
+  },
+  "verify": ["ruby --version"]
+}

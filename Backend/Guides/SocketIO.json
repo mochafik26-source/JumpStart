@@ -1,0 +1,9 @@
+{
+  "id": "socket-io",
+  "name": "Socket.IO",
+  "install": {
+    "arch": ["sudo pacman -Syu nodejs npm", "npm install socket.io"],
+    "all": ["npm install socket.io"]
+  },
+  "verify": []
+}

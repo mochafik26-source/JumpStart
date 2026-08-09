@@ -1,0 +1,8 @@
+{
+  "id": "pnpm",
+  "name": "pnpm",
+  "install": {
+    "arch": ["sudo pacman -Syu nodejs npm", "npm install -g pnpm"]
+  },
+  "verify": ["pnpm --version"]
+}

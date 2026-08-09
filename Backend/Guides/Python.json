@@ -1,0 +1,11 @@
+{
+  "id": "python",
+  "name": "Python",
+  "install": {
+    "windows": ["Download and install from https://python.org"],
+    "ubuntu": ["sudo apt update", "sudo apt install -y python3 python3-pip"],
+    "macos": ["brew install python"],
+    "arch": ["sudo pacman -Syu python python-pip"]
+  },
+  "verify": ["python3 --version", "pip3 --version"]
+}

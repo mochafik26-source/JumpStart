@@ -1,0 +1,8 @@
+{
+  "id": "aspnet",
+  "name": "ASP.NET",
+  "install": {
+    "arch": ["sudo pacman -Syu dotnet-sdk"]
+  },
+  "verify": ["dotnet --version"]
+}

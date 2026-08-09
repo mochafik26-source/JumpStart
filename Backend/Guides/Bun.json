@@ -1,0 +1,9 @@
+{
+  "id": "bun",
+  "name": "Bun",
+  "install": {
+    "arch": ["curl -fsSL https://bun.sh/install | bash"],
+    "all": ["curl -fsSL https://bun.sh/install | bash"]
+  },
+  "verify": ["bun --version"]
+}

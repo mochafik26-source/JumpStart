@@ -1,0 +1,10 @@
+{
+  "id": "sql",
+  "name": "SQL",
+  "install": {
+    "sqlite": ["sudo apt update", "sudo apt install -y sqlite3", "sudo pacman -Syu sqlite"],
+    "postgres": ["See https://www.postgresql.org/download/", "sudo pacman -Syu postgresql"],
+    "mysql": ["See https://dev.mysql.com/downloads/", "sudo pacman -Syu mariadb"]
+  },
+  "verify": ["sqlite3 --version"]
+}

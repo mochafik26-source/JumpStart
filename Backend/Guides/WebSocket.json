@@ -1,0 +1,8 @@
+{
+  "id": "websocket",
+  "name": "WebSocket",
+  "install": {
+    "all": ["No installation required — use language libraries (e.g., ws for Node.js)"]
+  },
+  "verify": []
+}

@@ -1,0 +1,9 @@
+{
+  "id": "pytorch",
+  "name": "PyTorch",
+  "install": {
+    "arch": ["sudo pacman -Syu python python-pip", "pip install torch"],
+    "all": ["pip install torch"]
+  },
+  "verify": ["python3 -c \"import torch; print(torch.__version__)\""]
+}

@@ -1,0 +1,9 @@
+{
+  "id": "vite",
+  "name": "Vite",
+  "install": {
+    "arch": ["sudo pacman -Syu nodejs npm", "npm create vite@latest"],
+    "all": ["npm create vite@latest"]
+  },
+  "verify": []
+}

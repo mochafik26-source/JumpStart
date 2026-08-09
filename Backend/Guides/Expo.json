@@ -1,0 +1,9 @@
+{
+  "id": "expo",
+  "name": "Expo",
+  "install": {
+    "arch": ["sudo pacman -Syu nodejs npm", "npm install -g expo-cli"],
+    "all": ["npm install -g expo-cli"]
+  },
+  "verify": ["expo --version"]
+}

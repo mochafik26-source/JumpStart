@@ -1,0 +1,9 @@
+{
+  "id": "javascript",
+  "name": "JavaScript",
+  "install": {
+    "arch": ["sudo pacman -Syu nodejs npm"],
+    "all": ["Install Node.js from https://nodejs.org (includes npm)"]
+  },
+  "verify": ["node -v", "npm -v"]
+}

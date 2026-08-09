@@ -1,0 +1,9 @@
+{
+  "id": "csharp",
+  "name": "C#",
+  "install": {
+    "arch": ["sudo pacman -Syu dotnet-sdk"],
+    "all": ["Install .NET SDK from https://dotnet.microsoft.com/download"]
+  },
+  "verify": ["dotnet --version"]
+}

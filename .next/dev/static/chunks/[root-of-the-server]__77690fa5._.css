@@ -187,7 +187,6 @@
     --default-transition-timing-function: cubic-bezier(.4, 0, .2, 1);
     --default-font-family: var(--font-sans);
     --default-mono-font-family: var(--font-mono);
-    --color-background: #0c0f12;
   }
 
   @supports (color: lab(0% 0 0)) {
@@ -519,14 +518,6 @@
 
   .bg-\[\#191919\] {
     background-color: #191919;
-  }
-
-  .bg-\[--color-background\] {
-    background-color: --color-background;
-  }
-
-  .bg-\[color-background\] {
-    background-color: color-background;
   }
 
   .bg-blue-600 {

@@ -1,0 +1,8 @@
+{
+  "id": "sqlite",
+  "name": "SQLite",
+  "install": {
+    "arch": ["sudo pacman -Syu sqlite"]
+  },
+  "verify": ["sqlite3 --version"]
+}

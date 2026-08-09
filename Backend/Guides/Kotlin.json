@@ -1,0 +1,9 @@
+{
+  "id": "kotlin",
+  "name": "Kotlin",
+  "install": {
+    "arch": ["sudo pacman -Syu kotlin jdk-openjdk"],
+    "all": ["Install Kotlin compiler from https://kotlinlang.org/docs/command-line.html or use SDKMAN (sdk install kotlin)"]
+  },
+  "verify": ["kotlinc -version"]
+}

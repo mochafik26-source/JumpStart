@@ -1,0 +1,8 @@
+{
+  "id": "yarn",
+  "name": "Yarn",
+  "install": {
+    "arch": ["sudo pacman -Syu nodejs npm", "npm install -g yarn"]
+  },
+  "verify": ["yarn --version"]
+}

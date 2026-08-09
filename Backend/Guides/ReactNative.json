@@ -1,0 +1,9 @@
+{
+  "id": "react-native",
+  "name": "React Native",
+  "install": {
+    "arch": ["sudo pacman -Syu nodejs npm", "npx react-native init MyApp"],
+    "all": ["npx react-native init MyApp"]
+  },
+  "verify": []
+}

@@ -1,0 +1,9 @@
+{
+  "id": "nestjs",
+  "name": "NestJS",
+  "install": {
+    "arch": ["sudo pacman -Syu nodejs npm", "npm i -g @nestjs/cli"],
+    "all": ["npm i -g @nestjs/cli"]
+  },
+  "verify": ["nest --version"]
+}

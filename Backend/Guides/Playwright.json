@@ -1,0 +1,9 @@
+{
+  "id": "playwright",
+  "name": "Playwright",
+  "install": {
+    "arch": ["sudo pacman -Syu nodejs npm", "npm install -D @playwright/test"],
+    "all": ["npm install -D @playwright/test"]
+  },
+  "verify": ["npx playwright --version"]
+}

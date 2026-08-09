@@ -1,0 +1,8 @@
+{
+  "id": "make",
+  "name": "Make",
+  "install": {
+    "arch": ["sudo pacman -Syu make"]
+  },
+  "verify": ["make --version"]
+}

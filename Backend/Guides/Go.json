@@ -1,0 +1,11 @@
+{
+  "id": "go",
+  "name": "Go",
+  "install": {
+    "ubuntu": ["sudo apt update", "sudo apt install -y golang-go"],
+    "macos": ["brew install go"],
+    "windows": ["Download Go from https://golang.org/dl/"],
+    "arch": ["sudo pacman -Syu go"]
+  },
+  "verify": ["go version"]
+}

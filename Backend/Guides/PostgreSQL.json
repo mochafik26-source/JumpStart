@@ -1,0 +1,8 @@
+{
+  "id": "postgresql",
+  "name": "PostgreSQL",
+  "install": {
+    "arch": ["sudo pacman -Syu postgresql"]
+  },
+  "verify": ["psql --version"]
+}

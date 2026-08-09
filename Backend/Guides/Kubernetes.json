@@ -1,0 +1,8 @@
+{
+  "id": "kubernetes",
+  "name": "Kubernetes",
+  "install": {
+    "arch": ["sudo pacman -Syu kubectl"]
+  },
+  "verify": ["kubectl version --client"]
+}

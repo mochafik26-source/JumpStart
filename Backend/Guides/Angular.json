@@ -1,0 +1,9 @@
+{
+  "id": "angular",
+  "name": "Angular",
+  "install": {
+    "arch": ["sudo pacman -Syu nodejs npm", "npm install -g @angular/cli"],
+    "all": ["npm install -g @angular/cli"]
+  },
+  "verify": ["ng version"]
+}

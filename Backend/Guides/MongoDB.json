@@ -1,0 +1,8 @@
+{
+  "id": "mongodb",
+  "name": "MongoDB",
+  "install": {
+    "arch": ["sudo pacman -Syu mongodb"]
+  },
+  "verify": ["mongod --version"]
+}

@@ -1,0 +1,9 @@
+{
+  "id": "flask",
+  "name": "Flask",
+  "install": {
+    "arch": ["sudo pacman -Syu python python-pip", "pip install Flask"],
+    "all": ["pip install Flask"]
+  },
+  "verify": ["python3 -c \"import flask; print(flask.__version__)\""]
+}

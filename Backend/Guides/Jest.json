@@ -1,0 +1,9 @@
+{
+  "id": "jest",
+  "name": "Jest",
+  "install": {
+    "arch": ["sudo pacman -Syu nodejs npm", "npm install -D jest"],
+    "all": ["npm install -D jest"]
+  },
+  "verify": ["npx jest --version"]
+}

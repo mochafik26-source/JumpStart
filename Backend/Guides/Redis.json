@@ -1,0 +1,8 @@
+{
+  "id": "redis",
+  "name": "Redis",
+  "install": {
+    "arch": ["sudo pacman -Syu redis"]
+  },
+  "verify": ["redis-server --version"]
+}

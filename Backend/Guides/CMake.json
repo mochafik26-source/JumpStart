@@ -1,0 +1,8 @@
+{
+  "id": "cmake",
+  "name": "CMake",
+  "install": {
+    "arch": ["sudo pacman -Syu cmake"]
+  },
+  "verify": ["cmake --version"]
+}

@@ -1,0 +1,9 @@
+{
+  "id": "svelte",
+  "name": "Svelte",
+  "install": {
+    "arch": ["sudo pacman -Syu nodejs npm", "npm init svelte@latest"],
+    "all": ["npm init svelte@latest"]
+  },
+  "verify": ["npx svelte --version"]
+}

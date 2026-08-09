@@ -1,0 +1,9 @@
+{
+  "id": "rust",
+  "name": "Rust",
+  "install": {
+    "arch": ["sudo pacman -Syu rustup", "rustup default stable"],
+    "all": ["curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh -s -- -y"]
+  },
+  "verify": ["rustc --version", "cargo --version"]
+}

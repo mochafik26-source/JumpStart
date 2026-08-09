@@ -1,0 +1,8 @@
+{
+  "id": "maven",
+  "name": "Maven",
+  "install": {
+    "arch": ["sudo pacman -Syu maven"]
+  },
+  "verify": ["mvn -v"]
+}

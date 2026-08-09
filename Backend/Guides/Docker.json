@@ -1,0 +1,8 @@
+{
+  "id": "docker",
+  "name": "Docker",
+  "install": {
+    "arch": ["sudo pacman -Syu docker"]
+  },
+  "verify": ["docker --version"]
+}

@@ -1,0 +1,9 @@
+{
+  "id": "dart",
+  "name": "Dart",
+  "install": {
+    "arch": ["sudo pacman -Syu dart"],
+    "all": ["Follow instructions at https://dart.dev/get-dart"]
+  },
+  "verify": ["dart --version"]
+}

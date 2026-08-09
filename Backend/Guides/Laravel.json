@@ -1,0 +1,9 @@
+{
+  "id": "laravel",
+  "name": "Laravel",
+  "install": {
+    "arch": ["sudo pacman -Syu php composer", "composer create-project --prefer-dist laravel/laravel myapp"],
+    "all": ["composer create-project --prefer-dist laravel/laravel myapp"]
+  },
+  "verify": []
+}
