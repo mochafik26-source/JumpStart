@@ -1,22 +1,22 @@
-[00:00:02.145] Server  LOG     ✓ Ready in 1584ms
-[00:00:17.223] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:00:18.182] Browser LOG     []
-[00:04:10.426] Browser LOG     ["Scikit-learn"]
-[00:04:11.406] Browser LOG     ["Scikit-learn","Playwright"]
-[00:04:12.545] Browser LOG     ["Scikit-learn","Playwright","Jest"]
-[00:04:14.499] Browser ERROR   {}
-[00:04:14.499] Browser ERROR   {}
-[00:05:33.953] Browser LOG     ["Scikit-learn","Jest"]
-[00:05:33.953] Browser ERROR   {}
-[00:05:34.719] Browser LOG     ["Scikit-learn","Jest","Vitest"]
-[00:05:34.719] Browser ERROR   {}
-[00:05:35.643] Browser LOG     ["Scikit-learn","Jest"]
-[00:05:35.643] Browser ERROR   {}
-[00:05:36.257] Browser LOG     ["Scikit-learn"]
-[00:05:36.257] Browser ERROR   {}
-[00:05:36.770] Browser LOG     []
-[00:05:43.011] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:05:43.655] Browser LOG     []
-[00:06:00.123] Server  LOG     ✓ Compiled in 686ms
-[00:08:31.325] Browser LOG     ["Flutter"]
-[00:08:32.542] Browser LOG     []
+[00:00:01.237] Server  LOG     ✓ Ready in 885ms
+[00:00:10.600] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:11.184] Browser LOG     []
+[00:00:46.639] Server  WARN    ⚠ Fast Refresh had to perform a full reload when ./Projects/Software/JumpStart/app/Data/TechList.ts changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[00:00:46.819] Server  LOG     ✓ Compiled in 26ms
+[00:00:47.249] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:48.038] Browser LOG     []
+[00:00:51.387] Browser LOG     ["C++"]
+[00:03:20.331] Server  WARN    ⚠ Fast Refresh had to perform a full reload when ./Projects/Software/JumpStart/app/page.tsx changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[00:03:20.509] Server  LOG     ✓ Compiled in 28ms
+[00:03:20.958] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:03:21.809] Browser LOG     []
+[00:03:36.893] Server  LOG     ✓ Compiled in 22ms
+[00:03:37.940] Browser ERROR   uncaughtError: ReferenceError: icon is not defined
+[00:03:55.459] Server  WARN    ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:03:55.485] Server  LOG     ✓ Compiled in 21ms
+[00:03:56.278] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:03:56.725] Browser LOG     []
+[00:16:34.371] Server  WARN    ⚠ Fast Refresh had to perform a full reload when ./Projects/Software/JumpStart/app/Data/TechList.ts changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[00:16:34.537] Server  LOG     ✓ Compiled in 20ms
+[00:16:35.038] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:16:35.570] Browser LOG     []

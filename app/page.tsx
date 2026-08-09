@@ -25,7 +25,7 @@ useEffect(() => {
     <>
 	<ul className="flex justify-center items-center gap-4 m-8 flex-wrap h-fit">
       	{TechList.map((item) => (
-       <Technologies lang={item.name} key={item.name} onClick={() => select(item.name)} />
+       <Technologies lang={item.name} icon={item.icon} key={item.name} onClick={() => select(item.name)} />
         ))}
     </ul>
 

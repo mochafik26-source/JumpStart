@@ -2,7 +2,7 @@
 import React from 'react';
 import styled from 'styled-components';
 import {useState} from 'react';
-export default function Technologies({lang, onClick}){
+export default function Technologies({lang, icon, onClick}){
 	const [active, setActive] = useState(false); 
 return (
     <StyledWrapper>
@@ -19,7 +19,7 @@ return (
         >         
       <div className="openai-logo">
               <img
-  src={`https://icon.icepanel.io/Technology/svg/${lang}.svg`}
+  src={`https://icon.icepanel.io/Technology/svg/${icon}.svg`}
   alt="Next.js"
   className="openai-icon"
 />     

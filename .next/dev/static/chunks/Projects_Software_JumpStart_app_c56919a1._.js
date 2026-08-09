@@ -225,7 +225,7 @@ var _s = __turbopack_context__.k.signature();
 ;
 ;
 ;
-function Technologies({ lang, onClick }) {
+function Technologies({ lang, icon, onClick }) {
     _s();
     const [active, setActive] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$Projects$2f$Software$2f$JumpStart$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])(false);
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Projects$2f$Software$2f$JumpStart$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(StyledWrapper, {
@@ -244,7 +244,7 @@ function Technologies({ lang, onClick }) {
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Projects$2f$Software$2f$JumpStart$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                         className: "openai-logo",
                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Projects$2f$Software$2f$JumpStart$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
-                            src: `https://icon.icepanel.io/Technology/svg/${lang}.svg`,
+                            src: `https://icon.icepanel.io/Technology/svg/${icon}.svg`,
                             alt: "Next.js",
                             className: "openai-icon"
                         }, void 0, false, {
@@ -521,336 +521,336 @@ const TechList = [
     {
         name: "JavaScript",
         category: "Language",
-        icon: "javascript"
+        icon: "JavaScript"
     },
     {
         name: "TypeScript",
         category: "Language",
-        icon: "typescript"
+        icon: "TypeScript"
     },
     {
         name: "Python",
         category: "Language",
-        icon: "python"
+        icon: "Python"
     },
     {
         name: "C",
         category: "Language",
-        icon: "c"
+        icon: "C"
     },
     {
         name: "C++",
         category: "Language",
-        icon: "cplusplus"
+        icon: "C%2B%2B-(CPlusPlus)"
     },
     {
         name: "C#",
         category: "Language",
-        icon: "csharp"
+        icon: "C%23-(CSharp)"
     },
     {
         name: "Java",
         category: "Language",
-        icon: "java"
+        icon: "Java"
     },
     {
         name: "Go",
         category: "Language",
-        icon: "go"
+        icon: "Go"
     },
     {
         name: "Rust",
         category: "Language",
-        icon: "rust"
+        icon: "Rust"
     },
     {
         name: "PHP",
         category: "Language",
-        icon: "php"
+        icon: "PHP"
     },
     {
         name: "Ruby",
         category: "Language",
-        icon: "ruby"
+        icon: "Ruby"
     },
     {
         name: "Kotlin",
         category: "Language",
-        icon: "kotlin"
+        icon: "Kotlin"
     },
     {
         name: "Swift",
         category: "Language",
-        icon: "swift"
+        icon: "Swift"
     },
     {
         name: "Dart",
         category: "Language",
-        icon: "dart"
+        icon: "Dart"
     },
     {
         name: "SQL",
         category: "Language",
-        icon: "sql"
+        icon: "SQL-Developer"
     },
     // Frontend
     {
         name: "React",
         category: "Frontend",
-        icon: "react"
+        icon: "React"
     },
     {
         name: "Next.js",
         category: "Frontend",
-        icon: "nextjs"
+        icon: "Next.js"
     },
     {
         name: "Vue",
         category: "Frontend",
-        icon: "vue"
+        icon: "Vue.js"
     },
     {
         name: "Angular",
         category: "Frontend",
-        icon: "angular"
+        icon: "Angular"
     },
     {
         name: "Svelte",
         category: "Frontend",
-        icon: "svelte"
+        icon: "Svelte"
     },
     {
         name: "Tailwind CSS",
         category: "Frontend",
-        icon: "tailwindcss"
+        icon: "Tailwind-CSS"
     },
     {
         name: "Bootstrap",
         category: "Frontend",
-        icon: "bootstrap"
+        icon: "Bootstrap"
     },
     {
         name: "Redux",
         category: "Frontend",
-        icon: "redux"
+        icon: "Redux"
     },
     {
         name: "Zustand",
         category: "Frontend",
-        icon: "zustand"
+        icon: "Zustand"
     },
     {
         name: "Vite",
         category: "Frontend",
-        icon: "vite"
+        icon: "Vite"
     },
     // Backend
     {
         name: "Node.js",
         category: "Backend",
-        icon: "nodejs"
+        icon: "Node.js"
     },
     {
         name: "Express",
         category: "Backend",
-        icon: "express"
+        icon: "Express"
     },
     {
         name: "NestJS",
         category: "Backend",
-        icon: "nestjs"
+        icon: "Nest.js"
     },
     {
         name: "Django",
         category: "Backend",
-        icon: "django"
+        icon: "Django"
     },
     {
         name: "Flask",
         category: "Backend",
-        icon: "flask"
+        icon: "Flask"
     },
     {
         name: "FastAPI",
         category: "Backend",
-        icon: "fastapi"
+        icon: "FastAPI"
     },
     {
         name: "Spring Boot",
         category: "Backend",
-        icon: "spring"
+        icon: "Spring"
     },
     {
         name: "Laravel",
         category: "Backend",
-        icon: "laravel"
+        icon: "Laravel"
     },
     {
         name: "ASP.NET",
         category: "Backend",
-        icon: "dotnet"
+        icon: ".NET"
     },
     // Databases
     {
         name: "PostgreSQL",
         category: "Database",
-        icon: "postgresql"
+        icon: "PostgresSQL"
     },
     {
         name: "MySQL",
         category: "Database",
-        icon: "mysql"
+        icon: "MySQL"
     },
     {
         name: "SQLite",
         category: "Database",
-        icon: "sqlite"
+        icon: "SQLite"
     },
     {
         name: "MongoDB",
         category: "Database",
-        icon: "mongodb"
+        icon: "MongoDB"
     },
     {
         name: "Redis",
         category: "Database",
-        icon: "redis"
+        icon: "Redis"
     },
     {
         name: "Prisma",
         category: "Database",
-        icon: "prisma"
+        icon: "Prisma"
     },
     {
         name: "Drizzle",
         category: "Database",
-        icon: "drizzle"
+        icon: "Drizzle"
     },
     // Mobile
     {
         name: "React Native",
         category: "Mobile",
-        icon: "react"
+        icon: "React Native"
     },
     {
         name: "Expo",
         category: "Mobile",
-        icon: "expo"
+        icon: "Expo"
     },
     {
         name: "Flutter",
         category: "Mobile",
-        icon: "flutter"
+        icon: "Flutter"
     },
     // AI / Machine Learning
     {
         name: "PyTorch",
         category: "AI/ML",
-        icon: "pytorch"
+        icon: "PyTorch"
     },
     {
         name: "TensorFlow",
         category: "AI/ML",
-        icon: "tensorflow"
+        icon: "TensorFlow"
     },
     {
         name: "NumPy",
         category: "AI/ML",
-        icon: "numpy"
+        icon: "NumPy"
     },
     {
         name: "Pandas",
         category: "AI/ML",
-        icon: "pandas"
+        icon: "Pandas"
     },
     {
         name: "OpenCV",
         category: "AI/ML",
-        icon: "opencv"
+        icon: "OpenCV"
     },
     {
         name: "Scikit-learn",
         category: "AI/ML",
-        icon: "scikitlearn"
+        icon: "scikit-learn"
     },
     // Testing
     {
         name: "Jest",
         category: "Testing",
-        icon: "jest"
+        icon: "Jest"
     },
     {
         name: "Vitest",
         category: "Testing",
-        icon: "vitest"
+        icon: "Vite.js"
     },
     {
         name: "Playwright",
         category: "Testing",
-        icon: "playwright"
+        icon: "Playwright"
     },
     {
         name: "Cypress",
         category: "Testing",
-        icon: "cypress"
+        icon: "Cypress"
     },
     // DevOps
     {
         name: "Git",
         category: "DevOps",
-        icon: "git"
+        icon: "Git"
     },
     {
         name: "Docker",
         category: "DevOps",
-        icon: "docker"
+        icon: "Docker"
     },
     {
         name: "Kubernetes",
         category: "DevOps",
-        icon: "kubernetes"
+        icon: "Kubernetes"
     },
     {
         name: "Terraform",
         category: "DevOps",
-        icon: "terraform"
+        icon: "HashiCorp-Terraform"
     },
     // APIs / Communication
     {
         name: "REST",
         category: "API",
-        icon: "rest"
+        icon: "REST"
     },
     {
         name: "GraphQL",
         category: "API",
-        icon: "graphql"
+        icon: "GraphQL"
     },
     {
         name: "gRPC",
         category: "API",
-        icon: "grpc"
+        icon: "gRPC"
     },
     {
         name: "WebSocket",
         category: "API",
-        icon: "websocket"
+        icon: "WebSocket"
     },
     {
         name: "Socket.IO",
         category: "API",
-        icon: "socketio"
+        icon: "Socket.IO"
     },
     {
         name: "MQTT",
         category: "API",
-        icon: "mqtt"
+        icon: "MQTT"
     },
     // Build / Package Tools
     {
         name: "npm",
         category: "Tools",
-        icon: "npm"
+        icon: "NPM"
     },
     {
         name: "pnpm",
@@ -860,32 +860,32 @@ const TechList = [
     {
         name: "Yarn",
         category: "Tools",
-        icon: "yarn"
+        icon: "Yarn"
     },
     {
         name: "Bun",
         category: "Tools",
-        icon: "bun"
+        icon: "Bun"
     },
     {
         name: "CMake",
         category: "Tools",
-        icon: "cmake"
+        icon: "CMake"
     },
     {
         name: "Make",
         category: "Tools",
-        icon: "make"
+        icon: "Make"
     },
     {
         name: "Gradle",
         category: "Tools",
-        icon: "gradle"
+        icon: "Gradle"
     },
     {
         name: "Maven",
         category: "Tools",
-        icon: "maven"
+        icon: "Apache-Maven"
     }
 ];
 if (typeof globalThis.$RefreshHelpers$ === 'object' && globalThis.$RefreshHelpers !== null) {
@@ -934,6 +934,7 @@ function home() {
                 className: "flex justify-center items-center gap-4 m-8 flex-wrap h-fit",
                 children: __TURBOPACK__imported__module__$5b$project$5d2f$Projects$2f$Software$2f$JumpStart$2f$app$2f$Data$2f$TechList$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["TechList"].map((item)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Projects$2f$Software$2f$JumpStart$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Projects$2f$Software$2f$JumpStart$2f$app$2f$Components$2f$Technologies$2e$jsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
                         lang: item.name,
+                        icon: item.icon,
                         onClick: ()=>select(item.name)
                     }, item.name, false, {
                         fileName: "[project]/Projects/Software/JumpStart/app/page.tsx",
