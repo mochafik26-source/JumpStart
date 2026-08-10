@@ -1,22 +1,219 @@
-[00:00:01.237] Server  LOG     ✓ Ready in 885ms
-[00:00:10.600] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:00:11.184] Browser LOG     []
-[00:00:46.639] Server  WARN    ⚠ Fast Refresh had to perform a full reload when ./Projects/Software/JumpStart/app/Data/TechList.ts changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
-[00:00:46.819] Server  LOG     ✓ Compiled in 26ms
-[00:00:47.249] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:00:48.038] Browser LOG     []
-[00:00:51.387] Browser LOG     ["C++"]
-[00:03:20.331] Server  WARN    ⚠ Fast Refresh had to perform a full reload when ./Projects/Software/JumpStart/app/page.tsx changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
-[00:03:20.509] Server  LOG     ✓ Compiled in 28ms
-[00:03:20.958] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:03:21.809] Browser LOG     []
-[00:03:36.893] Server  LOG     ✓ Compiled in 22ms
-[00:03:37.940] Browser ERROR   uncaughtError: ReferenceError: icon is not defined
-[00:03:55.459] Server  WARN    ⚠ Fast Refresh had to perform a full reload due to a runtime error.
-[00:03:55.485] Server  LOG     ✓ Compiled in 21ms
-[00:03:56.278] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:03:56.725] Browser LOG     []
-[00:16:34.371] Server  WARN    ⚠ Fast Refresh had to perform a full reload when ./Projects/Software/JumpStart/app/Data/TechList.ts changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
-[00:16:34.537] Server  LOG     ✓ Compiled in 20ms
-[00:16:35.038] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:16:35.570] Browser LOG     []
+[00:00:01.411] Server  LOG     ✓ Ready in 947ms
+[00:00:38.749] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:39.248] Browser LOG     []
+[00:01:10.182] Browser LOG     ["React"]
+[00:01:10.882] Browser LOG     ["React","Go"]
+[00:01:15.366] Browser LOG     ["React","Go","pnpm"]
+[00:18:19.218] Server  WARN    ⚠ Fast Refresh had to perform a full reload when ./Projects/Software/JumpStart/app/page.tsx changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[00:18:19.428] Server  LOG     ✓ Compiled in 501ms
+[00:18:19.895] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:18:20.701] Browser LOG     []
+[00:18:23.360] Browser LOG     ["npm"]
+[00:18:24.242] Browser LOG     ["npm","Yarn"]
+[00:18:26.977] Browser LOG     ["npm","Yarn","pnpm"]
+[00:21:49.858] Server  WARN    ⚠ Fast Refresh had to perform a full reload when ./Projects/Software/JumpStart/app/page.tsx changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[00:21:50.013] Server  LOG     ✓ Compiled in 40ms
+[00:21:50.464] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:21:51.253] Browser LOG     []
+[00:21:53.078] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:21:53.417] Browser LOG     []
+[00:21:54.710] Browser LOG     ["Yarn"]
+[00:21:55.489] Browser LOG     ["Yarn","npm"]
+[00:22:15.396] Server  WARN    ⚠ Fast Refresh had to perform a full reload when ./Projects/Software/JumpStart/app/page.tsx changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[00:22:15.569] Server  LOG     ✓ Compiled in 37ms
+[00:22:15.976] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:22:16.565] Browser LOG     []
+[00:23:23.196] Server  WARN    ⚠ Fast Refresh had to perform a full reload when ./Projects/Software/JumpStart/app/page.tsx changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[00:23:23.371] Server  LOG     ✓ Compiled in 29ms
+[00:23:23.804] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:23:24.309] Browser LOG     []
+[00:23:29.168] Server  LOG     ✓ Compiled in 55ms
+[00:23:29.272] Browser ERROR   ./Projects/Software/JumpStart/app/page.tsx:44:1
+Parsing ecmascript source code failed
+  42 |
+  43 |
+> 44 | }
+     | ^
+  45 |         </>
+  46 |   );
+  47 | }
+
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+
+Import traces:
+  Client Component Browser:
+    ./Projects/Software/JumpStart/app/page.tsx [Client Component Browser]
+    ./Projects/Software/JumpStart/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Projects/Software/JumpStart/app/page.tsx [Client Component SSR]
+    ./Projects/Software/JumpStart/app/page.tsx [Server Component]
+[00:25:08.059] Server  WARN    ⚠ Fast Refresh had to perform a full reload when ./Projects/Software/JumpStart/app/page.tsx changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[00:25:08.579] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:25:09.362] Browser LOG     []
+[00:25:11.135] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:25:11.681] Browser LOG     []
+[00:25:12.149] Browser LOG     ["JavaScript"]
+[00:25:12.414] Browser LOG     ["JavaScript","TypeScript"]
+[00:25:14.881] Browser ERROR   {}
+[00:25:14.881] Browser ERROR   {}
+[00:25:18.216] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:25:18.541] Browser LOG     []
+[00:25:19.214] Browser LOG     ["PostgreSQL"]
+[00:25:19.796] Browser LOG     ["PostgreSQL","SQLite"]
+[00:25:24.702] Browser LOG     ["PostgreSQL","SQLite","Yarn"]
+[00:25:26.702] Browser LOG     ["PostgreSQL","SQLite","Yarn","Bun"]
+[00:26:09.273] Server  LOG     ✓ Compiled in 30ms
+[00:26:10.229] Browser ERROR   ./Projects/Software/JumpStart/app/page.tsx:44:1
+Parsing ecmascript source code failed
+  42 |
+  43 |     {show ? <Fetching techs={selectedindex} /> : null}
+> 44 | }
+     | ^
+  45 |         </>
+  46 |   );
+  47 | }
+
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+
+Import traces:
+  Client Component Browser:
+    ./Projects/Software/JumpStart/app/page.tsx [Client Component Browser]
+    ./Projects/Software/JumpStart/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Projects/Software/JumpStart/app/page.tsx [Client Component SSR]
+    ./Projects/Software/JumpStart/app/page.tsx [Server Component]
+[00:26:11.290] Server  ERROR   ⨯ ./Projects/Software/JumpStart/app/page.tsx:44:1
+Parsing ecmascript source code failed
+  42 |
+  43 |     {show ? <Fetching techs={selectedindex} /> : null}
+> 44 | }
+     | ^
+  45 |         </>
+  46 |   );
+  47 | }
+
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+
+Import traces:
+  Client Component Browser:
+    ./Projects/Software/JumpStart/app/page.tsx [Client Component Browser]
+    ./Projects/Software/JumpStart/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Projects/Software/JumpStart/app/page.tsx [Client Component SSR]
+    ./Projects/Software/JumpStart/app/page.tsx [Server Component]
+
+
+[00:26:12.033] Browser ERROR   uncaughtError: Error: ./Projects/Software/JumpStart/app/page.tsx:44:1
+Parsing ecmascript source code failed
+  42 |
+  43 |     {show ? <Fetching techs={selectedindex} /> : null}
+> 44 | }
+     | ^
+  45 |         </>
+  46 |   );
+  47 | }
+
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+
+Import traces:
+  Client Component Browser:
+    ./Projects/Software/JumpStart/app/page.tsx [Client Component Browser]
+    ./Projects/Software/JumpStart/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Projects/Software/JumpStart/app/page.tsx [Client Component SSR]
+    ./Projects/Software/JumpStart/app/page.tsx [Server Component]
+
+
+[00:26:12.199] Browser ERROR   ./Projects/Software/JumpStart/app/page.tsx:44:1
+Parsing ecmascript source code failed
+  42 |
+  43 |     {show ? <Fetching techs={selectedindex} /> : null}
+> 44 | }
+     | ^
+  45 |         </>
+  46 |   );
+  47 | }
+
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+
+Import traces:
+  Client Component Browser:
+    ./Projects/Software/JumpStart/app/page.tsx [Client Component Browser]
+    ./Projects/Software/JumpStart/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Projects/Software/JumpStart/app/page.tsx [Client Component SSR]
+    ./Projects/Software/JumpStart/app/page.tsx [Server Component]
+[00:26:12.199] Browser ERROR   ./Projects/Software/JumpStart/app/page.tsx:44:1
+Parsing ecmascript source code failed
+  42 |
+  43 |     {show ? <Fetching techs={selectedindex} /> : null}
+> 44 | }
+     | ^
+  45 |         </>
+  46 |   );
+  47 | }
+
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+
+Import traces:
+  Client Component Browser:
+    ./Projects/Software/JumpStart/app/page.tsx [Client Component Browser]
+    ./Projects/Software/JumpStart/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Projects/Software/JumpStart/app/page.tsx [Client Component SSR]
+    ./Projects/Software/JumpStart/app/page.tsx [Server Component]
+[00:26:24.674] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:26:25.002] Browser LOG     []
+[00:26:26.397] Browser LOG     ["Yarn"]
+[00:26:29.999] Browser LOG     ["Yarn","Bun"]
+[00:26:53.845] Server  WARN    ⚠ Fast Refresh had to perform a full reload when ./Projects/Software/JumpStart/app/page.tsx changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[00:26:53.993] Server  LOG     ✓ Compiled in 27ms
+[00:26:54.514] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:26:55.014] Browser LOG     []
+[00:26:55.662] Browser LOG     ["Yarn"]
+[00:27:03.644] Server  WARN    ⚠ Fast Refresh had to perform a full reload when ./Projects/Software/JumpStart/app/page.tsx changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[00:27:03.794] Server  LOG     ✓ Compiled in 29ms
+[00:27:04.275] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:27:04.733] Browser LOG     []
+[00:27:07.172] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:27:07.830] Browser LOG     []
+[00:39:46.919] Server  WARN    ⚠ Fast Refresh had to perform a full reload when ./Projects/Software/JumpStart/app/page.tsx changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[00:39:47.113] Server  LOG     ✓ Compiled in 24ms
+[00:39:47.601] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:39:48.347] Browser LOG     []
+[00:41:08.395] Server  WARN    ⚠ Fast Refresh had to perform a full reload when ./Projects/Software/JumpStart/app/page.tsx changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[00:41:08.535] Server  LOG     ✓ Compiled in 26ms
+[00:41:08.646] Server  ERROR   ⨯ TypeError: hasRendered is not a function
+[00:41:08.991] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:41:09.780] Browser ERROR   uncaughtError: TypeError: hasRendered is not a function
+[00:41:14.474] Server  ERROR   ⨯ TypeError: hasRendered is not a function
+[00:41:14.825] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:41:14.971] Browser ERROR   uncaughtError: TypeError: hasRendered is not a function
+[00:41:37.642] Server  WARN    ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:41:37.642] Server  WARN    ⚠ Fast Refresh had to perform a full reload when ./Projects/Software/JumpStart/app/page.tsx changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[00:41:37.643] Server  WARN    ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:41:37.669] Server  LOG     ✓ Compiled in 26ms
+[00:41:38.350] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:41:38.942] Browser LOG     []
+[00:41:40.204] Browser LOG     ["Yarn"]
+[00:41:42.865] Browser LOG     ["Yarn","Bun"]
+[00:47:01.734] Server  WARN    ⚠ Fast Refresh had to perform a full reload when ./Projects/Software/JumpStart/app/page.tsx changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[00:47:01.879] Server  LOG     ✓ Compiled in 26ms
+[00:47:02.308] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:47:03.093] Browser LOG     []
+[00:48:24.852] Server  WARN    ⚠ Fast Refresh had to perform a full reload when ./Projects/Software/JumpStart/app/page.tsx changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[00:48:24.995] Server  LOG     ✓ Compiled in 27ms
+[00:48:25.406] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:48:26.248] Browser LOG     []
+[00:48:29.659] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:48:30.214] Browser LOG     []
+[00:48:31.257] Browser LOG     ["Yarn"]
+[00:48:34.199] Browser LOG     ["Yarn","Bun"]
+[00:48:35.755] Browser LOG     ["Yarn","Bun","pnpm"]
+[00:48:36.188] Browser LOG     ["Yarn","Bun","pnpm","npm"]

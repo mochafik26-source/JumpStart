@@ -914,6 +914,7 @@ var _s = __turbopack_context__.k.signature();
 function home() {
     _s();
     const [selectedindex, setselectedindex] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$Projects$2f$Software$2f$JumpStart$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])([]);
+    const [selectedTech, setSelectedTech] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$Projects$2f$Software$2f$JumpStart$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])([]);
     const [show, setShow] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$Projects$2f$Software$2f$JumpStart$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])(false);
     function select(position) {
         setselectedindex((prev)=>prev.includes(position) ? prev.filter((i)=>i !== position) : [
@@ -947,7 +948,10 @@ function home() {
                 columnNumber: 2
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Projects$2f$Software$2f$JumpStart$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
-                onClick: ()=>setShow(true),
+                onClick: ()=>{
+                    setShow(true);
+                    setSelectedTech(selectedindex);
+                },
                 children: "Click"
             }, void 0, false, {
                 fileName: "[project]/Projects/Software/JumpStart/app/page.tsx",
@@ -955,16 +959,16 @@ function home() {
                 columnNumber: 5
             }, this),
             show && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Projects$2f$Software$2f$JumpStart$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Projects$2f$Software$2f$JumpStart$2f$app$2f$Components$2f$types$2f$backts$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
-                techs: selectedindex
+                techs: selectedTech
             }, void 0, false, {
                 fileName: "[project]/Projects/Software/JumpStart/app/page.tsx",
-                lineNumber: 38,
-                columnNumber: 14
+                lineNumber: 41,
+                columnNumber: 16
             }, this)
         ]
     }, void 0, true);
 }
-_s(home, "uG1RA835xWSO0+yGEkIiZArL3Qg=");
+_s(home, "TEj8bgO1C04e7B4W2Uyty+lgcyc=");
 if (typeof globalThis.$RefreshHelpers$ === 'object' && globalThis.$RefreshHelpers !== null) {
     __turbopack_context__.k.registerExports(__turbopack_context__.m, globalThis.$RefreshHelpers$);
 }

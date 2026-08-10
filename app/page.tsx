@@ -5,8 +5,8 @@ import Technologies from "./Components/Technologies";
 import {TechList} from "./Data/TechList.ts";
 export default function home() {
     const [selectedindex, setselectedindex] = useState<string[]>([]);
+    const [selectedTech, setSelectedTech] = useState<string[]>([]);
     const [show, setShow] = useState(false);
-
  function select(position: string) {
   setselectedindex(prev =>
     prev.includes(position)
@@ -31,12 +31,15 @@ useEffect(() => {
 
  
 
-    <button onClick={() => setShow(true)}>
+    <button onClick={() => {
+      setShow(true);
+      setSelectedTech(selectedindex);
+         }}>
     Click
     </button>
 
-    {show && <Fetching techs={selectedindex} />
-}
+    {show && ( <Fetching techs={selectedTech}  /> )}
+
         </>
   );
 }
