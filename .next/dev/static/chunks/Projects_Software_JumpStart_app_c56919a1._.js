@@ -318,8 +318,8 @@ const StyledWrapper = __TURBOPACK__imported__module__$5b$project$5d2f$Projects$2
   .button-2 {
     width: 142px;
     height: 142px;
-    background-color: #1e5645;
-    border: 3px solid #000000;
+    background-color: #171A21;
+    border: 3px solid #292E38;
     border-radius: 8px;
     padding: 14px 14px;
     box-shadow: 4px 4px 0px #000000;
@@ -341,7 +341,7 @@ const StyledWrapper = __TURBOPACK__imported__module__$5b$project$5d2f$Projects$2
     bottom: -150%;
     width: 300%;
     height: 300%;
-    background-color: black;
+    background-color: #20252D;
     border-radius: 50%;
     transform: translateX(-50%) scale(0);
     transition: transform 0.5s ease-out;
@@ -351,6 +351,7 @@ const StyledWrapper = __TURBOPACK__imported__module__$5b$project$5d2f$Projects$2
   .button-2:hover::before,
   .button-2.active::before {
     transform: translateX(-50%) scale(1);
+    background-color: #6366F1;
   }
 
   /* Glass animation */
@@ -395,6 +396,7 @@ const StyledWrapper = __TURBOPACK__imported__module__$5b$project$5d2f$Projects$2
   .button-2.active {
     transform: translate(-2px, -2px);
     box-shadow: 6px 6px 0px #000000;
+    
   }
 
   /* Actual click/press effect */
@@ -948,11 +950,12 @@ function home() {
                 columnNumber: 2
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Projects$2f$Software$2f$JumpStart$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
+                className: "bg-[#6366F1] color-[#FFFFFF] hover:bg-[#818CF8] rounded-lg font-semibold h-[47px] cursor-pointer text-base py-[12px] px-[24px] duration-200 hover:translate-y-[-1px] text-white",
                 onClick: ()=>{
                     setShow(true);
                     setSelectedTech(selectedindex);
                 },
-                children: "Click"
+                children: "Get Guide"
             }, void 0, false, {
                 fileName: "[project]/Projects/Software/JumpStart/app/page.tsx",
                 lineNumber: 34,
@@ -962,7 +965,7 @@ function home() {
                 techs: selectedTech
             }, void 0, false, {
                 fileName: "[project]/Projects/Software/JumpStart/app/page.tsx",
-                lineNumber: 41,
+                lineNumber: 43,
                 columnNumber: 16
             }, this)
         ]

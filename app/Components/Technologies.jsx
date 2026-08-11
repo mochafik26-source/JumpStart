@@ -61,8 +61,8 @@ const StyledWrapper = styled.div`
   .button-2 {
     width: 142px;
     height: 142px;
-    background-color: #1e5645;
-    border: 3px solid #000000;
+    background-color: #171A21;
+    border: 3px solid #292E38;
     border-radius: 8px;
     padding: 14px 14px;
     box-shadow: 4px 4px 0px #000000;
@@ -84,7 +84,7 @@ const StyledWrapper = styled.div`
     bottom: -150%;
     width: 300%;
     height: 300%;
-    background-color: black;
+    background-color: #20252D;
     border-radius: 50%;
     transform: translateX(-50%) scale(0);
     transition: transform 0.5s ease-out;
@@ -94,6 +94,7 @@ const StyledWrapper = styled.div`
   .button-2:hover::before,
   .button-2.active::before {
     transform: translateX(-50%) scale(1);
+    background-color: #6366F1;
   }
 
   /* Glass animation */
@@ -138,6 +139,7 @@ const StyledWrapper = styled.div`
   .button-2.active {
     transform: translate(-2px, -2px);
     box-shadow: 6px 6px 0px #000000;
+    
   }
 
   /* Actual click/press effect */
