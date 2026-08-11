@@ -25,12 +25,12 @@ function Guide({ guide }) {
         }, this);
     }
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Projects$2f$Software$2f$JumpStart$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-        className: "space-y-6",
+        className: "space-y-6 p-8",
         children: guide.map((guides)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Projects$2f$Software$2f$JumpStart$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: "rounded-lg border p-4 shadow",
+                className: "rounded-lg border-[#252B36] p-[16px] shadow bg-[#151922]",
                 children: [
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Projects$2f$Software$2f$JumpStart$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
-                        className: "text-2xl font-bold",
+                        className: "text-2xl font-bold text-[#F3F4F6]",
                         children: guides.name
                     }, void 0, false, {
                         fileName: "[project]/Projects/Software/JumpStart/app/Components/Guide.tsx",
@@ -40,7 +40,7 @@ function Guide({ guide }) {
                     guides.install.arch && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Projects$2f$Software$2f$JumpStart$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Projects$2f$Software$2f$JumpStart$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Fragment"], {
                         children: [
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Projects$2f$Software$2f$JumpStart$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
-                                className: "mt-4 mb-2 font-semibold",
+                                className: "mt-4 mb-2 font-semibold text-[#9CA3AF]",
                                 children: "Arch Linux"
                             }, void 0, false, {
                                 fileName: "[project]/Projects/Software/JumpStart/app/Components/Guide.tsx",
@@ -48,7 +48,7 @@ function Guide({ guide }) {
                                 columnNumber: 15
                             }, this),
                             guides.install.arch.map((command, index)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Projects$2f$Software$2f$JumpStart$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("pre", {
-                                    className: "bg-gray-900 text-green-400 p-3 rounded mb-2 overflow-x-auto",
+                                    className: "bg-gray-900 text-green-400 p-3 rounded mb-2 overflow-x-auto bg-[#0B0F16] border-[#1E293B] text-[#4ADE80] py-[10px] px-[12px]",
                                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Projects$2f$Software$2f$JumpStart$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("code", {
                                         children: command
                                     }, void 0, false, {
@@ -924,23 +924,30 @@ function home() {
                 lineNumber: 26,
                 columnNumber: 2
             }, this),
-            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Projects$2f$Software$2f$JumpStart$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
-                className: "bg-[#6366F1] color-[#FFFFFF] hover:bg-[#818CF8] rounded-lg font-semibold h-[47px] cursor-pointer text-base py-[12px] px-[24px] duration-200 hover:translate-y-[-1px] text-white",
-                onClick: ()=>{
-                    setShow(true);
-                    setSelectedTech(selectedindex);
-                },
-                children: "Get Guide"
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Projects$2f$Software$2f$JumpStart$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                className: "flex justify-center",
+                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Projects$2f$Software$2f$JumpStart$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
+                    className: "bg-[#6366F1] color-[#FFFFFF] hover:bg-[#818CF8] rounded-lg font-semibold h-[47px] cursor-pointer text-base py-[12px] px-[24px] duration-200 hover:translate-y-[-1px] text-white",
+                    onClick: ()=>{
+                        setShow(true);
+                        setSelectedTech(selectedindex);
+                    },
+                    children: "Get Guide"
+                }, void 0, false, {
+                    fileName: "[project]/Projects/Software/JumpStart/app/page.tsx",
+                    lineNumber: 34,
+                    columnNumber: 5
+                }, this)
             }, void 0, false, {
                 fileName: "[project]/Projects/Software/JumpStart/app/page.tsx",
-                lineNumber: 34,
+                lineNumber: 33,
                 columnNumber: 5
             }, this),
             show && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Projects$2f$Software$2f$JumpStart$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Projects$2f$Software$2f$JumpStart$2f$app$2f$Components$2f$types$2f$backts$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
                 techs: selectedTech
             }, void 0, false, {
                 fileName: "[project]/Projects/Software/JumpStart/app/page.tsx",
-                lineNumber: 43,
+                lineNumber: 44,
                 columnNumber: 16
             }, this)
         ]

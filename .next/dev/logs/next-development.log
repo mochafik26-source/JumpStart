@@ -1,77 +1,9 @@
-[00:00:02.154] Server  LOG     ✓ Ready in 1617ms
-[00:08:17.593] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:08:18.244] Browser LOG     []
-[00:13:22.162] Browser LOG     ["Swift"]
-[00:16:02.450] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:16:03.375] Browser LOG     []
-[00:17:16.229] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:17:17.151] Browser LOG     []
-[00:19:19.772] Server  LOG     ✓ Compiled in 38ms
-[00:20:56.781] Browser LOG     ["PHP"]
-[00:21:52.229] Server  LOG     ✓ Compiled in 32ms
-[00:21:54.879] Browser LOG     ["PHP","TypeScript"]
-[00:21:56.679] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:21:57.460] Browser LOG     []
-[00:22:15.080] Server  LOG     ✓ Compiled in 24ms
-[00:22:16.699] Browser LOG     ["TypeScript"]
-[00:22:17.776] Browser LOG     ["TypeScript","JavaScript"]
-[00:22:19.602] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:22:20.028] Browser LOG     []
-[00:22:21.862] Browser LOG     ["JavaScript"]
-[00:22:23.098] Browser LOG     []
-[00:22:24.168] Browser LOG     ["JavaScript"]
-[00:22:45.254] Server  LOG     ✓ Compiled in 23ms
-[00:22:47.958] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:22:48.398] Browser LOG     []
-[00:22:48.806] Browser LOG     ["TypeScript"]
-[00:23:03.750] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:23:04.212] Browser LOG     []
-[00:23:05.789] Browser LOG     ["JavaScript"]
-[00:23:07.085] Browser LOG     []
-[00:23:20.889] Browser LOG     ["TypeScript"]
-[00:23:22.475] Browser LOG     []
-[00:23:42.135] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:23:42.516] Browser LOG     []
-[00:23:46.039] Server  LOG     ✓ Compiled in 24ms
-[00:23:48.934] Browser LOG     ["JavaScript"]
-[00:23:50.520] Browser LOG     []
-[00:23:51.372] Browser LOG     ["JavaScript"]
-[00:23:52.292] Browser LOG     []
-[00:24:11.003] Server  LOG     ✓ Compiled in 30ms
-[00:24:13.771] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:24:14.390] Browser LOG     []
-[00:24:15.082] Browser LOG     ["TypeScript"]
-[00:24:16.118] Browser LOG     ["TypeScript","JavaScript"]
-[00:24:30.040] Server  LOG     ✓ Compiled in 27ms
-[00:24:55.098] Browser LOG     ["JavaScript"]
-[00:24:55.467] Browser LOG     []
-[00:29:55.674] Browser LOG     ["SQLite"]
-[00:29:56.986] Browser LOG     ["SQLite","TensorFlow"]
-[00:35:29.467] Server  WARN    ⚠ Fast Refresh had to perform a full reload when ./Projects/Software/JumpStart/app/page.tsx changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
-[00:35:29.613] Server  LOG     ✓ Compiled in 51ms
-[00:35:30.152] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:35:30.701] Browser LOG     []
-[00:40:40.375] Server  WARN    ⚠ Fast Refresh had to perform a full reload when ./Projects/Software/JumpStart/app/page.tsx changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
-[00:40:40.400] Server  LOG     ✓ Compiled in 46ms
-[00:40:41.018] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:40:41.604] Browser LOG     []
-[00:41:22.812] Server  WARN    ⚠ Fast Refresh had to perform a full reload when ./Projects/Software/JumpStart/app/page.tsx changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
-[00:41:22.980] Server  LOG     ✓ Compiled in 35ms
-[00:41:23.431] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:41:23.913] Browser LOG     []
-[00:41:36.365] Server  WARN    ⚠ Fast Refresh had to perform a full reload when ./Projects/Software/JumpStart/app/page.tsx changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
-[00:41:36.492] Server  LOG     ✓ Compiled in 28ms
-[00:41:36.958] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:41:37.817] Browser LOG     []
-[00:41:47.132] Server  WARN    ⚠ Fast Refresh had to perform a full reload when ./Projects/Software/JumpStart/app/page.tsx changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
-[00:41:47.308] Server  LOG     ✓ Compiled in 32ms
-[00:41:47.849] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:41:48.306] Browser LOG     []
-[00:41:58.734] Server  WARN    ⚠ Fast Refresh had to perform a full reload when ./Projects/Software/JumpStart/app/page.tsx changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
-[00:41:58.859] Server  LOG     ✓ Compiled in 30ms
-[00:41:59.270] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:42:00.103] Browser LOG     []
-[00:42:16.524] Server  WARN    ⚠ Fast Refresh had to perform a full reload when ./Projects/Software/JumpStart/app/page.tsx changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
-[00:42:16.676] Server  LOG     ✓ Compiled in 32ms
-[00:42:17.233] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:42:17.696] Browser LOG     []
+[00:00:02.115] Server  LOG     ✓ Ready in 1600ms
+[00:00:39.230] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:39.596] Browser LOG     []
+[00:00:41.761] Browser LOG     ["Yarn"]
+[00:00:42.132] Browser LOG     ["Yarn","Maven"]
+[00:05:55.444] Server  LOG     ✓ Compiled in 543ms
+[00:06:15.696] Server  LOG     ✓ Compiled in 55ms
+[00:06:48.771] Browser LOG     ["Yarn"]
+[00:06:49.490] Browser LOG     []

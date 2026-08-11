@@ -30,7 +30,7 @@ useEffect(() => {
     </ul>
 
  
-
+    <div className="flex justify-center">
     <button 
     className="bg-[#6366F1] color-[#FFFFFF] hover:bg-[#818CF8] rounded-lg font-semibold h-[47px] cursor-pointer text-base py-[12px] px-[24px] duration-200 hover:translate-y-[-1px] text-white"
     onClick={() => {
@@ -40,6 +40,7 @@ useEffect(() => {
     Get Guide 
     </button>
 
+    </div>
     {show && ( <Fetching techs={selectedTech}  /> )}
 
         </>
