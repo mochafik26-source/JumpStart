@@ -933,6 +933,11 @@ function home() {
     ]);
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Projects$2f$Software$2f$JumpStart$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Projects$2f$Software$2f$JumpStart$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Fragment"], {
         children: [
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Projects$2f$Software$2f$JumpStart$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(NavBar, {}, void 0, false, {
+                fileName: "[project]/Projects/Software/JumpStart/app/page.tsx",
+                lineNumber: 27,
+                columnNumber: 5
+            }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Projects$2f$Software$2f$JumpStart$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
                 className: "flex justify-center items-center gap-4 m-8 flex-wrap h-fit",
                 children: __TURBOPACK__imported__module__$5b$project$5d2f$Projects$2f$Software$2f$JumpStart$2f$app$2f$Data$2f$TechList$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["TechList"].map((item)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Projects$2f$Software$2f$JumpStart$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Projects$2f$Software$2f$JumpStart$2f$app$2f$Components$2f$Technologies$2e$jsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
@@ -941,12 +946,12 @@ function home() {
                         onClick: ()=>select(item.name)
                     }, item.name, false, {
                         fileName: "[project]/Projects/Software/JumpStart/app/page.tsx",
-                        lineNumber: 28,
+                        lineNumber: 30,
                         columnNumber: 8
                     }, this))
             }, void 0, false, {
                 fileName: "[project]/Projects/Software/JumpStart/app/page.tsx",
-                lineNumber: 26,
+                lineNumber: 28,
                 columnNumber: 2
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Projects$2f$Software$2f$JumpStart$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -960,19 +965,19 @@ function home() {
                     children: "Get Guide"
                 }, void 0, false, {
                     fileName: "[project]/Projects/Software/JumpStart/app/page.tsx",
-                    lineNumber: 34,
+                    lineNumber: 36,
                     columnNumber: 5
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/Projects/Software/JumpStart/app/page.tsx",
-                lineNumber: 33,
+                lineNumber: 35,
                 columnNumber: 5
             }, this),
             show && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Projects$2f$Software$2f$JumpStart$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Projects$2f$Software$2f$JumpStart$2f$app$2f$Components$2f$types$2f$backts$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
                 techs: selectedTech
             }, void 0, false, {
                 fileName: "[project]/Projects/Software/JumpStart/app/page.tsx",
-                lineNumber: 44,
+                lineNumber: 46,
                 columnNumber: 16
             }, this)
         ]

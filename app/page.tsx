@@ -3,6 +3,7 @@ import { useEffect, useState } from "react";
 import Fetching from "./Components/types/backts";
 import Technologies from "./Components/Technologies";
 import {TechList} from "./Data/TechList.ts";
+import Navbar from "./Components/NavBar.tsx";
 export default function home() {
     const [selectedindex, setselectedindex] = useState<string[]>([]);
     const [selectedTech, setSelectedTech] = useState<string[]>([]);
@@ -23,6 +24,7 @@ useEffect(() => {
 
   return (
     <>
+    <Navbar />
 	<ul className="flex justify-center items-center gap-4 m-8 flex-wrap h-fit">
       	{TechList.map((item) => (
        <Technologies lang={item.name} icon={item.icon} key={item.name} onClick={() => select(item.name)} />
