@@ -25,7 +25,6 @@ export const  TechList = [
   { name: "Tailwind CSS", category: "Frontend", icon: "Tailwind-CSS" },
   { name: "Bootstrap", category: "Frontend", icon: "Bootstrap" },
   { name: "Redux", category: "Frontend", icon: "Redux" },
-  { name: "Zustand", category: "Frontend", icon: "Zustand" },
   { name: "Vite", category: "Frontend", icon: "Vite" },
 
   // Backend
@@ -45,12 +44,8 @@ export const  TechList = [
   { name: "SQLite", category: "Database", icon: "SQLite" },
   { name: "MongoDB", category: "Database", icon: "MongoDB" },
   { name: "Redis", category: "Database", icon: "Redis" },
-  { name: "Prisma", category: "Database", icon: "Prisma" },
-  { name: "Drizzle", category: "Database", icon: "Drizzle" },
 
   // Mobile
-  { name: "React Native", category: "Mobile", icon: "React Native" },
-  { name: "Expo", category: "Mobile", icon: "Expo" },
   { name: "Flutter", category: "Mobile", icon: "Flutter" },
 
   // AI / Machine Learning
@@ -64,7 +59,6 @@ export const  TechList = [
   // Testing
   { name: "Jest", category: "Testing", icon: "Jest" },
   { name: "Vitest", category: "Testing", icon: "Vite.js" },
-  { name: "Playwright", category: "Testing", icon: "Playwright" },
   { name: "Cypress", category: "Testing", icon: "Cypress" },
 
   // DevOps
@@ -74,20 +68,14 @@ export const  TechList = [
   { name: "Terraform", category: "DevOps", icon: "HashiCorp-Terraform" },
 
   // APIs / Communication
-  { name: "REST", category: "API", icon: "REST" },
   { name: "GraphQL", category: "API", icon: "GraphQL" },
-  { name: "gRPC", category: "API", icon: "gRPC" },
-  { name: "WebSocket", category: "API", icon: "WebSocket" },
   { name: "Socket.IO", category: "API", icon: "Socket.IO" },
-  { name: "MQTT", category: "API", icon: "MQTT" },
 
   // Build / Package Tools
   { name: "npm", category: "Tools", icon: "NPM" },
-  { name: "pnpm", category: "Tools", icon: "pnpm" },
   { name: "Yarn", category: "Tools", icon: "Yarn" },
   { name: "Bun", category: "Tools", icon: "Bun" },
   { name: "CMake", category: "Tools", icon: "CMake" },
-  { name: "Make", category: "Tools", icon: "Make" },
   { name: "Gradle", category: "Tools", icon: "Gradle" },
   { name: "Maven", category: "Tools", icon: "Apache-Maven" },
 ];

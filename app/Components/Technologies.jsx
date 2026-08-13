@@ -9,7 +9,6 @@ return (
       <div className="button-container">
        <a
           href="#"
-          className="brutalist-button openai button-2"
           onClick={(e) => {
             e.preventDefault(); // prevents navigation
             onClick(lang);

@@ -637,11 +637,6 @@ const TechList = [
         icon: "Redux"
     },
     {
-        name: "Zustand",
-        category: "Frontend",
-        icon: "Zustand"
-    },
-    {
         name: "Vite",
         category: "Frontend",
         icon: "Vite"
@@ -718,27 +713,7 @@ const TechList = [
         category: "Database",
         icon: "Redis"
     },
-    {
-        name: "Prisma",
-        category: "Database",
-        icon: "Prisma"
-    },
-    {
-        name: "Drizzle",
-        category: "Database",
-        icon: "Drizzle"
-    },
     // Mobile
-    {
-        name: "React Native",
-        category: "Mobile",
-        icon: "React Native"
-    },
-    {
-        name: "Expo",
-        category: "Mobile",
-        icon: "Expo"
-    },
     {
         name: "Flutter",
         category: "Mobile",
@@ -787,11 +762,6 @@ const TechList = [
         icon: "Vite.js"
     },
     {
-        name: "Playwright",
-        category: "Testing",
-        icon: "Playwright"
-    },
-    {
         name: "Cypress",
         category: "Testing",
         icon: "Cypress"
@@ -819,45 +789,20 @@ const TechList = [
     },
     // APIs / Communication
     {
-        name: "REST",
-        category: "API",
-        icon: "REST"
-    },
-    {
         name: "GraphQL",
         category: "API",
         icon: "GraphQL"
-    },
-    {
-        name: "gRPC",
-        category: "API",
-        icon: "gRPC"
-    },
-    {
-        name: "WebSocket",
-        category: "API",
-        icon: "WebSocket"
     },
     {
         name: "Socket.IO",
         category: "API",
         icon: "Socket.IO"
     },
-    {
-        name: "MQTT",
-        category: "API",
-        icon: "MQTT"
-    },
     // Build / Package Tools
     {
         name: "npm",
         category: "Tools",
         icon: "NPM"
-    },
-    {
-        name: "pnpm",
-        category: "Tools",
-        icon: "pnpm"
     },
     {
         name: "Yarn",
@@ -873,11 +818,6 @@ const TechList = [
         name: "CMake",
         category: "Tools",
         icon: "CMake"
-    },
-    {
-        name: "Make",
-        category: "Tools",
-        icon: "Make"
     },
     {
         name: "Gradle",

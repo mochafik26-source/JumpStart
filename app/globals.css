@@ -1,4 +1,6 @@
 @import "tailwindcss";
+@import "@fontsource/sora/600.css";
+@import "@fontsource/sora/700.css";
 @theme {
 
   --color-text: #eaebed;
@@ -11,5 +13,8 @@
 	background: #0f1115;
 }
 
+.logo {
+    font-family: "Sora", sans-serif;
+}
 
 

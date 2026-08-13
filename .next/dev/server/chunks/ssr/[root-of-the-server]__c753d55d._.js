@@ -63,32 +63,6 @@ function Guide({ guide }) {
                                 }, this))
                         ]
                     }, void 0, true),
-                    guides.install.ubuntu && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Projects$2f$Software$2f$JumpStart$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Projects$2f$Software$2f$JumpStart$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Fragment"], {
-                        children: [
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Projects$2f$Software$2f$JumpStart$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
-                                className: "mt-4 mb-2 font-semibold",
-                                children: "Ubuntu"
-                            }, void 0, false, {
-                                fileName: "[project]/Projects/Software/JumpStart/app/Components/Guide.tsx",
-                                lineNumber: 48,
-                                columnNumber: 15
-                            }, this),
-                            guides.install.ubuntu.map((command, index)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Projects$2f$Software$2f$JumpStart$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("pre", {
-                                    className: "bg-gray-900 text-green-400 p-3 rounded mb-2 overflow-x-auto",
-                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Projects$2f$Software$2f$JumpStart$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("code", {
-                                        children: command
-                                    }, void 0, false, {
-                                        fileName: "[project]/Projects/Software/JumpStart/app/Components/Guide.tsx",
-                                        lineNumber: 57,
-                                        columnNumber: 19
-                                    }, this)
-                                }, index, false, {
-                                    fileName: "[project]/Projects/Software/JumpStart/app/Components/Guide.tsx",
-                                    lineNumber: 53,
-                                    columnNumber: 17
-                                }, this))
-                        ]
-                    }, void 0, true),
                     guides.install.all && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Projects$2f$Software$2f$JumpStart$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Projects$2f$Software$2f$JumpStart$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Fragment"], {
                         children: [
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Projects$2f$Software$2f$JumpStart$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -96,7 +70,7 @@ function Guide({ guide }) {
                                 children: "All"
                             }, void 0, false, {
                                 fileName: "[project]/Projects/Software/JumpStart/app/Components/Guide.tsx",
-                                lineNumber: 65,
+                                lineNumber: 50,
                                 columnNumber: 15
                             }, this),
                             guides.install.all.map((command, index)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Projects$2f$Software$2f$JumpStart$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("pre", {
@@ -105,12 +79,12 @@ function Guide({ guide }) {
                                         children: command
                                     }, void 0, false, {
                                         fileName: "[project]/Projects/Software/JumpStart/app/Components/Guide.tsx",
-                                        lineNumber: 74,
+                                        lineNumber: 59,
                                         columnNumber: 19
                                     }, this)
                                 }, index, false, {
                                     fileName: "[project]/Projects/Software/JumpStart/app/Components/Guide.tsx",
-                                    lineNumber: 70,
+                                    lineNumber: 55,
                                     columnNumber: 17
                                 }, this))
                         ]
@@ -619,11 +593,6 @@ const TechList = [
         icon: "Redux"
     },
     {
-        name: "Zustand",
-        category: "Frontend",
-        icon: "Zustand"
-    },
-    {
         name: "Vite",
         category: "Frontend",
         icon: "Vite"
@@ -700,27 +669,7 @@ const TechList = [
         category: "Database",
         icon: "Redis"
     },
-    {
-        name: "Prisma",
-        category: "Database",
-        icon: "Prisma"
-    },
-    {
-        name: "Drizzle",
-        category: "Database",
-        icon: "Drizzle"
-    },
     // Mobile
-    {
-        name: "React Native",
-        category: "Mobile",
-        icon: "React Native"
-    },
-    {
-        name: "Expo",
-        category: "Mobile",
-        icon: "Expo"
-    },
     {
         name: "Flutter",
         category: "Mobile",
@@ -769,11 +718,6 @@ const TechList = [
         icon: "Vite.js"
     },
     {
-        name: "Playwright",
-        category: "Testing",
-        icon: "Playwright"
-    },
-    {
         name: "Cypress",
         category: "Testing",
         icon: "Cypress"
@@ -801,45 +745,20 @@ const TechList = [
     },
     // APIs / Communication
     {
-        name: "REST",
-        category: "API",
-        icon: "REST"
-    },
-    {
         name: "GraphQL",
         category: "API",
         icon: "GraphQL"
-    },
-    {
-        name: "gRPC",
-        category: "API",
-        icon: "gRPC"
-    },
-    {
-        name: "WebSocket",
-        category: "API",
-        icon: "WebSocket"
     },
     {
         name: "Socket.IO",
         category: "API",
         icon: "Socket.IO"
     },
-    {
-        name: "MQTT",
-        category: "API",
-        icon: "MQTT"
-    },
     // Build / Package Tools
     {
         name: "npm",
         category: "Tools",
         icon: "NPM"
-    },
-    {
-        name: "pnpm",
-        category: "Tools",
-        icon: "pnpm"
     },
     {
         name: "Yarn",
@@ -855,11 +774,6 @@ const TechList = [
         name: "CMake",
         category: "Tools",
         icon: "CMake"
-    },
-    {
-        name: "Make",
-        category: "Tools",
-        icon: "Make"
     },
     {
         name: "Gradle",
@@ -908,7 +822,27 @@ function home() {
     ]);
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Projects$2f$Software$2f$JumpStart$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Projects$2f$Software$2f$JumpStart$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Fragment"], {
         children: [
-            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Projects$2f$Software$2f$JumpStart$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(NavBar, {}, void 0, false, {
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Projects$2f$Software$2f$JumpStart$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                className: "logo text-2xl font-bold tracking-[-1px] flex justify-center",
+                children: [
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Projects$2f$Software$2f$JumpStart$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                        className: "text-[#F3F4F6]",
+                        children: "Jump"
+                    }, void 0, false, {
+                        fileName: "[project]/Projects/Software/JumpStart/app/page.tsx",
+                        lineNumber: 28,
+                        columnNumber: 5
+                    }, this),
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Projects$2f$Software$2f$JumpStart$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                        className: "text-[#6366F1]",
+                        children: "Start"
+                    }, void 0, false, {
+                        fileName: "[project]/Projects/Software/JumpStart/app/page.tsx",
+                        lineNumber: 29,
+                        columnNumber: 5
+                    }, this)
+                ]
+            }, void 0, true, {
                 fileName: "[project]/Projects/Software/JumpStart/app/page.tsx",
                 lineNumber: 27,
                 columnNumber: 5
@@ -921,12 +855,12 @@ function home() {
                         onClick: ()=>select(item.name)
                     }, item.name, false, {
                         fileName: "[project]/Projects/Software/JumpStart/app/page.tsx",
-                        lineNumber: 30,
+                        lineNumber: 33,
                         columnNumber: 8
                     }, this))
             }, void 0, false, {
                 fileName: "[project]/Projects/Software/JumpStart/app/page.tsx",
-                lineNumber: 28,
+                lineNumber: 31,
                 columnNumber: 2
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Projects$2f$Software$2f$JumpStart$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -940,19 +874,19 @@ function home() {
                     children: "Get Guide"
                 }, void 0, false, {
                     fileName: "[project]/Projects/Software/JumpStart/app/page.tsx",
-                    lineNumber: 36,
+                    lineNumber: 39,
                     columnNumber: 5
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/Projects/Software/JumpStart/app/page.tsx",
-                lineNumber: 35,
+                lineNumber: 38,
                 columnNumber: 5
             }, this),
             show && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Projects$2f$Software$2f$JumpStart$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Projects$2f$Software$2f$JumpStart$2f$app$2f$Components$2f$types$2f$backts$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
                 techs: selectedTech
             }, void 0, false, {
                 fileName: "[project]/Projects/Software/JumpStart/app/page.tsx",
-                lineNumber: 46,
+                lineNumber: 49,
                 columnNumber: 16
             }, this)
         ]
