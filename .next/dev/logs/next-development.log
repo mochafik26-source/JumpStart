@@ -1,3 +1,5 @@
-[00:00:01.341] Server  LOG     ✓ Ready in 951ms
-[00:00:03.817] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:00:04.102] Browser LOG     []
+[00:00:01.650] Server  LOG     ✓ Ready in 1230ms
+[00:00:06.275] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:06.794] Browser LOG     []
+[00:00:07.614] Browser LOG     ["Kotlin"]
+[00:00:07.916] Browser LOG     ["Kotlin","Ruby"]

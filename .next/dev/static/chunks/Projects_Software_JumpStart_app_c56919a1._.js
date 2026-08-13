@@ -56,32 +56,6 @@ function Guide({ guide }) {
                                     columnNumber: 17
                                 }, this))
                         ]
-                    }, void 0, true),
-                    guides.install.all && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Projects$2f$Software$2f$JumpStart$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Projects$2f$Software$2f$JumpStart$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Fragment"], {
-                        children: [
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Projects$2f$Software$2f$JumpStart$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
-                                className: "mt-4 mb-2 font-semibold",
-                                children: "All"
-                            }, void 0, false, {
-                                fileName: "[project]/Projects/Software/JumpStart/app/Components/Guide.tsx",
-                                lineNumber: 50,
-                                columnNumber: 15
-                            }, this),
-                            guides.install.all.map((command, index)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Projects$2f$Software$2f$JumpStart$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("pre", {
-                                    className: "bg-gray-900 text-green-400 p-3 rounded mb-2 overflow-x-auto",
-                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Projects$2f$Software$2f$JumpStart$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("code", {
-                                        children: command
-                                    }, void 0, false, {
-                                        fileName: "[project]/Projects/Software/JumpStart/app/Components/Guide.tsx",
-                                        lineNumber: 59,
-                                        columnNumber: 19
-                                    }, this)
-                                }, index, false, {
-                                    fileName: "[project]/Projects/Software/JumpStart/app/Components/Guide.tsx",
-                                    lineNumber: 55,
-                                    columnNumber: 17
-                                }, this))
-                        ]
                     }, void 0, true)
                 ]
             }, guides.id, true, {
@@ -109,6 +83,7 @@ __turbopack_context__.s([
     "default",
     ()=>Fetching
 ]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$Projects$2f$Software$2f$JumpStart$2f$node_modules$2f$next$2f$dist$2f$build$2f$polyfills$2f$process$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = /*#__PURE__*/ __turbopack_context__.i("[project]/Projects/Software/JumpStart/node_modules/next/dist/build/polyfills/process.js [app-client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$Projects$2f$Software$2f$JumpStart$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Projects/Software/JumpStart/node_modules/next/dist/compiled/react/jsx-dev-runtime.js [app-client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$Projects$2f$Software$2f$JumpStart$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Projects/Software/JumpStart/node_modules/next/dist/compiled/react/index.js [app-client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$Projects$2f$Software$2f$JumpStart$2f$app$2f$Components$2f$Guide$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Projects/Software/JumpStart/app/Components/Guide.tsx [app-client] (ecmascript)");
@@ -128,7 +103,7 @@ function Fetching({ techs }) {
                 try {
                     const results = await Promise.all(techs.map({
                         "Fetching.useEffect.fetchGuides": async (tech)=>{
-                            const res = await fetch(`http://localhost:5000/${tech}`);
+                            const res = await fetch(`${("TURBOPACK compile-time value", "https://jumpstartapi-ngijizjj.b4a.run/")}${tech}`);
                             if (!res.ok) {
                                 throw new Error(`Failed to fetch ${tech} (${res.status})`);
                             }
@@ -207,7 +182,6 @@ function Technologies({ lang, icon, onClick }) {
             className: "button-container",
             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Projects$2f$Software$2f$JumpStart$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
                 href: "#",
-                className: "brutalist-button openai button-2",
                 onClick: (e)=>{
                     e.preventDefault(); // prevents navigation
                     onClick(lang);
@@ -223,12 +197,12 @@ function Technologies({ lang, icon, onClick }) {
                             className: "openai-icon"
                         }, void 0, false, {
                             fileName: "[project]/Projects/Software/JumpStart/app/Components/Technologies.jsx",
-                            lineNumber: 21,
+                            lineNumber: 20,
                             columnNumber: 15
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/Projects/Software/JumpStart/app/Components/Technologies.jsx",
-                        lineNumber: 20,
+                        lineNumber: 19,
                         columnNumber: 7
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Projects$2f$Software$2f$JumpStart$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -237,12 +211,12 @@ function Technologies({ lang, icon, onClick }) {
                             children: lang
                         }, void 0, false, {
                             fileName: "[project]/Projects/Software/JumpStart/app/Components/Technologies.jsx",
-                            lineNumber: 28,
+                            lineNumber: 27,
                             columnNumber: 13
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/Projects/Software/JumpStart/app/Components/Technologies.jsx",
-                        lineNumber: 27,
+                        lineNumber: 26,
                         columnNumber: 11
                     }, this)
                 ]

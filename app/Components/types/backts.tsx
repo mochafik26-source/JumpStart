@@ -28,7 +28,7 @@ export default function Fetching({ techs }: Props) {
       try {
         const results = await Promise.all(
           techs.map(async (tech) => {
-            const res = await fetch(`http://localhost:5000/${tech}`);
+            const res = await fetch(`${process.env.NEXT_PUBLIC_API_URL}${tech}`);
 
             if (!res.ok) {
               throw new Error(`Failed to fetch ${tech} (${res.status})`);
