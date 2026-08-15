@@ -88,6 +88,3 @@ Contributions and suggestions are welcome.
 
 If you find an issue or have an idea for a new feature, feel free to open an issue or submit a pull request.
 
-## License
-
-This project is open source. Add your preferred license here.
