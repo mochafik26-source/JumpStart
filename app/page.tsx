@@ -4,6 +4,7 @@ import Fetching from "./Components/types/backts";
 import Technologies from "./Components/Technologies";
 import {TechList} from "./Data/TechList";
 import Navbar from "./Components/NavBar";
+import { Analytics } from "@vercel/analytics/next"
 export default function home() {
     const [selectedindex, setselectedindex] = useState<string[]>([]);
     const [selectedTech, setSelectedTech] = useState<string[]>([]);
@@ -47,7 +48,9 @@ useEffect(() => {
 
     </div>
     {show && ( <Fetching techs={selectedTech}  /> )}
+    
 
+        <Analytics/>
         </>
   );
 }

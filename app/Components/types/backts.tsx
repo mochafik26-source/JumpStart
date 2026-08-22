@@ -41,7 +41,7 @@ export default function Fetching({ techs }: Props) {
         setGuides(results);
       } catch (err) {
         console.error(err);
-        setError("Failed to load guides.");
+        setError("Failed to load guides please refresh and try again.");
       } finally {
         setLoading(false);
       }
