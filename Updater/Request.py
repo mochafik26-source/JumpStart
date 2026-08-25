@@ -23,12 +23,14 @@ class Guide(BaseModel):
 
 client = Groq()
 
-response = client.chat.completions.create(
-    model="openai/gpt-oss-20b",
-    messages=[
-        {
-            "role": "system",
-            "content": """
+
+def generate_guide(technology: str) -> Guide:
+    response = client.chat.completions.create(
+        model="openai/gpt-oss-20b",
+        messages=[
+            {
+                "role": "system",
+                "content": """
 You generate installation guides for programming technologies.
 
 Generate accurate installation commands for:
@@ -41,26 +43,25 @@ Rules:
 - Do not invent commands.
 - Include commands needed to install dependencies.
 - Include commands to verify the installation.
+- On Arch Linux, never use "pacman -Sy" without "-u".
 - Return only the requested structured data.
 """
-        },
-        {
-            "role": "user",
-            "content": "Generate an installation guide for TypeScript."
+            },
+            {
+                "role": "user",
+                "content": f"Generate an installation guide for {technology}."
+            }
+        ],
+        response_format={
+            "type": "json_schema",
+            "json_schema": {
+                "name": "installation_guide",
+                "strict": True,
+                "schema": Guide.model_json_schema()
+            }
         }
-    ],
-    response_format={
-        "type": "json_schema",
-        "json_schema": {
-            "name": "installation_guide",
-            "strict": True,
-            "schema": Guide.model_json_schema()
-        }
-    }
-)
+    )
 
-data = json.loads(response.choices[0].message.content)
+    data = json.loads(response.choices[0].message.content)
 
-guide = Guide.model_validate(data)
-
-print(guide.model_dump_json(indent=2))
+    return Guide.model_validate(data)
