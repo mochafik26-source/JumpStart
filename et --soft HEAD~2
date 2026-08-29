@@ -1,0 +1,34 @@
+[33m0fa3927[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m)[m fetching guids
+[33m2fd1482[m key
+[33m75db437[m fetching guides from groq depend on the technologies that we have
+[33m412c2a2[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m importing technologies names to array
+[33mdf1d8d2[m generating commands developement
+[33m5c2846b[m ai api for updating the commands
+[33m0ccffdb[m better error handling
+[33m89e5064[m adding analytics
+[33maef7814[m Remove license section from README
+[33m1493af4[m Update README.md
+[33mf9b822d[m Update layout.tsx
+[33m6f28a9b[m front end for deployment
+[33m1bedb29[m preparing backend for deoloyment
+[33m6dacf48[m getting ready for depliyment
+[33m411f6a1[m fixing bugs
+[33mcfd59a0[m costumizing the guide component
+[33m65bd524[m changing the style
+[33m6f18adc[m synchronous choosing of technologies
+[33m5475928[m adding tech icons
+[33mcd0e6fa[m adding all the guide
+[33m87ad237[m adding more technologies
+[33m5480758[m adding cards of languages
+[33mf53d162[m update
+[33mcde2f13[m fetching guides to the console
+[33mff797d7[m update
+[33mb1efd48[m adding choces to usestate
+[33mb0a3a8e[m choosing
+[33m533f292[m choosing
+[33m8c9d3f3[m updating
+[33m54877b8[m getting selected tech
+[33md3f94b4[m adding the guides
+[33m5c9acbe[m sending test data
+[33mc870e15[m back to production
+[33mfcebaa9[m first commit
