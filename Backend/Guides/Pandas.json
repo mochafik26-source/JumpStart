@@ -1,9 +1,4 @@
 {
-  "id": "pandas",
-  "name": "Pandas",
-  "install": {
-    "arch": ["sudo pacman -Syu python python-pip", "pip install pandas"],
-    "all": ["pip install pandas"]
-  },
-  "verify": ["python3 -c \"import pandas; print(pandas.__version__)\""]
-}
+    "id": "pandas",
+    "name": "Pandas",
+    "install": 

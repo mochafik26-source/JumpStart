@@ -5,5 +5,5 @@ def main():
     values = loop()
     for i in values:
         guide = generate_guide(i)
-        update(guide.name, guide.install, guide.verify)
+        update(i, guide)
 main()

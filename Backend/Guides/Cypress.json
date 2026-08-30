@@ -1,9 +1,17 @@
 {
-  "id": "cypress",
-  "name": "Cypress",
-  "install": {
-    "arch": ["sudo pacman -Syu nodejs npm", "npm install -D cypress"],
-    "all": ["npm install -D cypress"]
-  },
-  "verify": ["npx cypress --version"]
+    "id": "cypress",
+    "name": "Cypress",
+    "install": {
+        "arch": [
+            "sudo pacman -Syu --noconfirm",
+            "sudo pacman -S --noconfirm nodejs npm",
+            "npm install -g cypress"
+        ],
+        "all": [
+            "npm install -D cypress"
+        ]
+    },
+    "verify": [
+        "npx cypress --version"
+    ]
 }
