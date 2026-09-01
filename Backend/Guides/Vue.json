@@ -1,9 +1,1 @@
-{
-  "id": "vue",
-  "name": "Vue",
-  "install": {
-    "arch": ["sudo pacman -Syu nodejs npm", "npm install -g @vue/cli"],
-    "all": ["npm install -g @vue/cli"]
-  },
-  "verify": ["vue --version"]
-}
+"{\n    \"id\": \"vue-cli\",\n    \"name\": \"Vue CLI installation guide\",\n    \"install\": {\n        \"arch\": [\n            \"sudo pacman -Syu nodejs npm\",\n            \"sudo npm install -g @vue/cli\"\n        ],\n        \"ubuntu\": [\n            \"sudo apt-get update\",\n            \"sudo apt-get install -y nodejs npm\",\n            \"sudo npm install -g @vue/cli\"\n        ],\n        \"all\": [\n            \"npm install -g @vue/cli\"\n        ]\n    },\n    \"verify\": [\n        \"node --version\",\n        \"npm --version\",\n        \"vue --version\"\n    ]\n}"

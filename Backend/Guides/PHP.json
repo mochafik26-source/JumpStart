@@ -1,11 +1,1 @@
-{
-  "id": "php",
-  "name": "PHP",
-  "install": {
-    "ubuntu": ["sudo apt update", "sudo apt install -y php"],
-    "macos": ["brew install php"],
-    "windows": ["Download PHP from https://windows.php.net/"]
-    ,"arch": ["sudo pacman -Syu php"]
-  },
-  "verify": ["php -v"]
-}
+"{\n    \"id\": \"php\",\n    \"name\": \"PHP\",\n    \"install\": {\n        \"arch\": [\n            \"sudo pacman -Syu php php-apache php-mysql php-pear\"\n        ],\n        \"ubuntu\": [\n            \"sudo apt update\",\n            \"sudo apt install -y php libapache2-mod-php php-mysql php-cli php-pear\"\n        ],\n        \"all\": [\n            \"php -v\"\n        ]\n    },\n    \"verify\": [\n        \"php -v\",\n        \"php -m\"\n    ]\n}"

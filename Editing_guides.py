@@ -1,2 +1,0 @@
-def Editing_guides():
-

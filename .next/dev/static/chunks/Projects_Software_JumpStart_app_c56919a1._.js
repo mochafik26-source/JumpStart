@@ -83,7 +83,6 @@ __turbopack_context__.s([
     "default",
     ()=>Fetching
 ]);
-var __TURBOPACK__imported__module__$5b$project$5d2f$Projects$2f$Software$2f$JumpStart$2f$node_modules$2f$next$2f$dist$2f$build$2f$polyfills$2f$process$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = /*#__PURE__*/ __turbopack_context__.i("[project]/Projects/Software/JumpStart/node_modules/next/dist/build/polyfills/process.js [app-client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$Projects$2f$Software$2f$JumpStart$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Projects/Software/JumpStart/node_modules/next/dist/compiled/react/jsx-dev-runtime.js [app-client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$Projects$2f$Software$2f$JumpStart$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Projects/Software/JumpStart/node_modules/next/dist/compiled/react/index.js [app-client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$Projects$2f$Software$2f$JumpStart$2f$app$2f$Components$2f$Guide$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Projects/Software/JumpStart/app/Components/Guide.tsx [app-client] (ecmascript)");
@@ -103,7 +102,7 @@ function Fetching({ techs }) {
                 try {
                     const results = await Promise.all(techs.map({
                         "Fetching.useEffect.fetchGuides": async (tech)=>{
-                            const res = await fetch(`${("TURBOPACK compile-time value", "https://jumpstartapi-ngijizjj.b4a.run/")}${tech}`);
+                            const res = await fetch(`http://127.0.0.1:5000/${tech}`);
                             if (!res.ok) {
                                 throw new Error(`Failed to fetch ${tech} (${res.status})`);
                             }
@@ -113,7 +112,7 @@ function Fetching({ techs }) {
                     setGuides(results);
                 } catch (err) {
                     console.error(err);
-                    setError("Failed to load guides.");
+                    setError("Failed to load guides please refresh and try again.");
                 } finally{
                     setLoading(false);
                 }
@@ -147,7 +146,7 @@ function Fetching({ techs }) {
     }, void 0, false, {
         fileName: "[project]/Projects/Software/JumpStart/app/Components/types/backts.tsx",
         lineNumber: 62,
-        columnNumber: 7
+        columnNumber: 5
     }, this);
 }
 _s(Fetching, "cwWUMrUQ1GQ3Xbl7jaS+G/HdzAk=");
@@ -794,9 +793,11 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$Projects$2f$Software$2f$Jump
 var __TURBOPACK__imported__module__$5b$project$5d2f$Projects$2f$Software$2f$JumpStart$2f$app$2f$Components$2f$types$2f$backts$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Projects/Software/JumpStart/app/Components/types/backts.tsx [app-client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$Projects$2f$Software$2f$JumpStart$2f$app$2f$Components$2f$Technologies$2e$jsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Projects/Software/JumpStart/app/Components/Technologies.jsx [app-client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$Projects$2f$Software$2f$JumpStart$2f$app$2f$Data$2f$TechList$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Projects/Software/JumpStart/app/Data/TechList.ts [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$Projects$2f$Software$2f$JumpStart$2f$node_modules$2f40$vercel$2f$analytics$2f$dist$2f$next$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Projects/Software/JumpStart/node_modules/@vercel/analytics/dist/next/index.mjs [app-client] (ecmascript)");
 ;
 var _s = __turbopack_context__.k.signature();
 "use client";
+;
 ;
 ;
 ;
@@ -829,7 +830,7 @@ function home() {
                         children: "Jump"
                     }, void 0, false, {
                         fileName: "[project]/Projects/Software/JumpStart/app/page.tsx",
-                        lineNumber: 28,
+                        lineNumber: 29,
                         columnNumber: 5
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Projects$2f$Software$2f$JumpStart$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -837,13 +838,13 @@ function home() {
                         children: "Start"
                     }, void 0, false, {
                         fileName: "[project]/Projects/Software/JumpStart/app/page.tsx",
-                        lineNumber: 29,
+                        lineNumber: 30,
                         columnNumber: 5
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/Projects/Software/JumpStart/app/page.tsx",
-                lineNumber: 27,
+                lineNumber: 28,
                 columnNumber: 5
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Projects$2f$Software$2f$JumpStart$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
@@ -854,12 +855,12 @@ function home() {
                         onClick: ()=>select(item.name)
                     }, item.name, false, {
                         fileName: "[project]/Projects/Software/JumpStart/app/page.tsx",
-                        lineNumber: 33,
+                        lineNumber: 34,
                         columnNumber: 8
                     }, this))
             }, void 0, false, {
                 fileName: "[project]/Projects/Software/JumpStart/app/page.tsx",
-                lineNumber: 31,
+                lineNumber: 32,
                 columnNumber: 2
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Projects$2f$Software$2f$JumpStart$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -873,20 +874,25 @@ function home() {
                     children: "Get Guide"
                 }, void 0, false, {
                     fileName: "[project]/Projects/Software/JumpStart/app/page.tsx",
-                    lineNumber: 39,
+                    lineNumber: 40,
                     columnNumber: 5
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/Projects/Software/JumpStart/app/page.tsx",
-                lineNumber: 38,
+                lineNumber: 39,
                 columnNumber: 5
             }, this),
             show && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Projects$2f$Software$2f$JumpStart$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Projects$2f$Software$2f$JumpStart$2f$app$2f$Components$2f$types$2f$backts$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
                 techs: selectedTech
             }, void 0, false, {
                 fileName: "[project]/Projects/Software/JumpStart/app/page.tsx",
-                lineNumber: 49,
+                lineNumber: 50,
                 columnNumber: 16
+            }, this),
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Projects$2f$Software$2f$JumpStart$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Projects$2f$Software$2f$JumpStart$2f$node_modules$2f40$vercel$2f$analytics$2f$dist$2f$next$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Analytics"], {}, void 0, false, {
+                fileName: "[project]/Projects/Software/JumpStart/app/page.tsx",
+                lineNumber: 53,
+                columnNumber: 9
             }, this)
         ]
     }, void 0, true);

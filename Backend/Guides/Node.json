@@ -1,11 +1,1 @@
-{
-  "id": "nodejs",
-  "name": "Node.js",
-  "install": {
-    "windows": ["Download Node.js LTS from https://nodejs.org"],
-    "ubuntu": ["sudo apt update", "sudo apt install nodejs npm"],
-    "arch": ["sudo pacman -S nodejs npm"],
-    "macos": ["brew install node"]
-  },
-  "verify": ["node -v", "npm -v"]
-}
+"{\n    \"id\": \"nodejs\",\n    \"name\": \"Node.js\",\n    \"install\": {\n        \"arch\": [\n            \"sudo pacman -Syu nodejs npm\"\n        ],\n        \"ubuntu\": [\n            \"curl -fsSL https://deb.nodesource.com/setup_lts.x | sudo -E bash -\",\n            \"sudo apt-get install -y nodejs npm\"\n        ],\n        \"all\": [\n            \"curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.3/install.sh | bash\",\n            \"source ~/.bashrc\",\n            \"nvm install --lts\",\n            \"nvm use --lts\"\n        ]\n    },\n    \"verify\": [\n        \"node -v\",\n        \"npm -v\",\n        \"nvm --version\"\n    ]\n}"

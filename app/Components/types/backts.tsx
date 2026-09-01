@@ -28,7 +28,7 @@ export default function Fetching({ techs }: Props) {
       try {
         const results = await Promise.all(
           techs.map(async (tech) => {
-            const res = await fetch(`${process.env.NEXT_PUBLIC_API_URL}${tech}`);
+            const res = await fetch(`http://127.0.0.1:5000/${tech}`);
 
             if (!res.ok) {
               throw new Error(`Failed to fetch ${tech} (${res.status})`);
@@ -59,6 +59,6 @@ export default function Fetching({ techs }: Props) {
   }
 
   return (
-      <Guide guide={guides}/>
-     );
+    <Guide guide={guides} />
+  );
 }

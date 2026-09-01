@@ -24,9 +24,10 @@ class Guide(BaseModel):
 client = Groq()
 
 
-def generate_guide(technology: str) -> Guide:
+def generate_guide(technology: str) -> str:
     response = client.chat.completions.create(
         model="openai/gpt-oss-20b",
+
         messages=[
             {
                 "role": "system",
@@ -52,6 +53,7 @@ Rules:
                 "content": f"Generate an installation guide for {technology}."
             }
         ],
+
         response_format={
             "type": "json_schema",
             "json_schema": {
@@ -62,6 +64,26 @@ Rules:
         }
     )
 
-    data = json.loads(response.choices[0].message.content)
+    # Get JSON returned by the AI
+    content = response.choices[0].message.content
 
-    return Guide.model_validate(data)
+    # Convert JSON string -> Python dictionary
+    data = json.loads(content)
+
+    # Validate using Pydantic
+    guide = Guide.model_validate(data)
+
+    # Convert validated Guide -> JSON string
+    return guide.model_dump_json(indent=4)
+
+
+def main():
+    technology = "Rust"
+
+    json_string = generate_guide(technology)
+
+    print(json_string)
+
+
+if __name__ == "__main__":
+    main()

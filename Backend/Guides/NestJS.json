@@ -1,9 +1,1 @@
-{
-  "id": "nestjs",
-  "name": "NestJS",
-  "install": {
-    "arch": ["sudo pacman -Syu nodejs npm", "npm i -g @nestjs/cli"],
-    "all": ["npm i -g @nestjs/cli"]
-  },
-  "verify": ["nest --version"]
-}
+"{\n    \"id\": \"nestjs\",\n    \"name\": \"NestJS\",\n    \"install\": {\n        \"arch\": [\n            \"pacman -Syu nodejs npm\",\n            \"npm i -g @nestjs/cli\"\n        ],\n        \"ubuntu\": [\n            \"curl -fsSL https://deb.nodesource.com/setup_20.x | sudo -E bash -\",\n            \"sudo apt-get install -y nodejs\",\n            \"npm i -g @nestjs/cli\"\n        ],\n        \"all\": [\n            \"npm i -g @nestjs/cli\"\n        ]\n    },\n    \"verify\": [\n        \"nest --version\"\n    ]\n}"

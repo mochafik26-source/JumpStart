@@ -1,11 +1,1 @@
-{
-  "id": "python",
-  "name": "Python",
-  "install": {
-    "windows": ["Download and install from https://python.org"],
-    "ubuntu": ["sudo apt update", "sudo apt install -y python3 python3-pip"],
-    "macos": ["brew install python"],
-    "arch": ["sudo pacman -Syu python python-pip"]
-  },
-  "verify": ["python3 --version", "pip3 --version"]
-}
+"{\n    \"id\": \"python-install\",\n    \"name\": \"Python Installation Guide\",\n    \"install\": {\n        \"arch\": [\n            \"sudo pacman -Syu python\"\n        ],\n        \"ubuntu\": [\n            \"sudo apt-get update\",\n            \"sudo apt-get install -y python3\"\n        ],\n        \"all\": []\n    },\n    \"verify\": [\n        \"python3 --version\",\n        \"pip3 --version\"\n    ]\n}"

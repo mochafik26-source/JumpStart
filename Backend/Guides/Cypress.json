@@ -1,17 +1,1 @@
-{
-    "id": "cypress",
-    "name": "Cypress",
-    "install": {
-        "arch": [
-            "sudo pacman -Syu --noconfirm",
-            "sudo pacman -S --noconfirm nodejs npm",
-            "npm install -g cypress"
-        ],
-        "all": [
-            "npm install -D cypress"
-        ]
-    },
-    "verify": [
-        "npx cypress --version"
-    ]
-}
+"{\n    \"id\": \"cypress\",\n    \"name\": \"Cypress\",\n    \"install\": {\n        \"arch\": [\n            \"sudo pacman -Syu nodejs npm\",\n            \"npm install -g cypress\"\n        ],\n        \"ubuntu\": [\n            \"sudo apt update\",\n            \"sudo apt install -y git nodejs npm\",\n            \"npm install -g cypress\"\n        ],\n        \"all\": [\n            \"npm install -g cypress\"\n        ]\n    },\n    \"verify\": [\n        \"cypress --version\"\n    ]\n}"

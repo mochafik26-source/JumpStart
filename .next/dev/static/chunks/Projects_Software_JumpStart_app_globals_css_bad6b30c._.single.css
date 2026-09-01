@@ -325,6 +325,10 @@
     inset-inline-start: var(--spacing);
   }
 
+  .end {
+    inset-inline-end: var(--spacing);
+  }
+
   .m-8 {
     margin: calc(var(--spacing) * 8);
   }

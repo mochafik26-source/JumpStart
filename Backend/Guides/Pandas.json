@@ -1,4 +1,1 @@
-{
-    "id": "pandas",
-    "name": "Pandas",
-    "install": 
+"{\n    \"id\": \"pandas\",\n    \"name\": \"Pandas\",\n    \"install\": {\n        \"arch\": [\n            \"pacman -Syu python-pandas\"\n        ],\n        \"ubuntu\": [\n            \"apt-get update\",\n            \"apt-get install -y python3-pandas\"\n        ],\n        \"all\": [\n            \"pip3 install pandas\"\n        ]\n    },\n    \"verify\": [\n        \"python3 -c \\\"import pandas as pd; print(pd.__version__)\\\"\"\n    ]\n}"

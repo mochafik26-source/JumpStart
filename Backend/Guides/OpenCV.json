@@ -1,12 +1,1 @@
-{
-    "id": "opencv",
-    "name": "OpenCV",
-    "install": {
-        "arch": [
-            "sudo pacman -Syu opencv"
-        ]
-    },
-    "verify": [
-        "python3 -c \"import cv2; print(cv2.__version__)\""
-    ]
-}
+"{\n    \"id\": \"opencv\",\n    \"name\": \"OpenCV\",\n    \"install\": {\n        \"arch\": [\n            \"sudo pacman -Syu\",\n            \"sudo pacman -S opencv python-opencv\"\n        ],\n        \"ubuntu\": [\n            \"sudo apt update\",\n            \"sudo apt install -y libopencv-dev python3-opencv\"\n        ],\n        \"all\": [\n            \"pip install opencv-python\"\n        ]\n    },\n    \"verify\": [\n        \"python -c \\\"import cv2; print(cv2.__version__)\\\"\"\n    ]\n}"

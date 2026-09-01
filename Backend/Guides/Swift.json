@@ -1,9 +1,1 @@
-{
-  "id": "swift",
-  "name": "Swift",
-  "install": {
-    "arch": ["sudo pacman -Syu swift"],
-    "all": ["Download and install Swift from https://swift.org/download/"]
-  },
-  "verify": ["swift --version"]
-}
+"{\n    \"id\": \"swift-install\",\n    \"name\": \"Swift\",\n    \"install\": {\n        \"arch\": [\n            \"sudo pacman -Syu swift\"\n        ],\n        \"ubuntu\": [\n            \"wget -qO- https://swift.org/builds/swift-5.8.1-release/ubuntu2204/swift-5.8.1-RELEASE/swift-5.8.1-RELEASE-ubuntu22.04.tar.gz | tar xzf - -C /usr/local\"\n        ],\n        \"all\": [\n            \"wget https://swift.org/builds/swift-5.8.1-release/x86_64-apple-darwin/swift-5.8.1-RELEASE/swift-5.8.1-RELEASE-apple-darwin.tar.gz -O swift.tar.gz\",\n            \"sudo tar xzf swift.tar.gz -C /usr/local\",\n            \"rm swift.tar.gz\"\n        ]\n    },\n    \"verify\": [\n        \"swift --version\"\n    ]\n}"

@@ -1,5 +1,34 @@
-[00:00:01.650] Server  LOG     ✓ Ready in 1230ms
-[00:00:06.275] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:00:06.794] Browser LOG     []
-[00:00:07.614] Browser LOG     ["Kotlin"]
-[00:00:07.916] Browser LOG     ["Kotlin","Ruby"]
+[00:00:02.173] Server  LOG     ✓ Ready in 1645ms
+[00:00:13.651] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:13.924] Browser LOG     []
+[00:00:15.103] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:00:15.103] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:00:15.103] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","r":"","sdkn":"@vercel/analytics/next","sdkv":"2.0.1","sv":"0.1.3","ts":1788268067146} /_vercel/insights/view
+[00:00:49.366] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:50.120] Browser LOG     []
+[00:00:50.120] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:00:50.120] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:00:50.121] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","r":"","sdkn":"@vercel/analytics/next","sdkv":"2.0.1","sv":"0.1.3","ts":1788268102163} /_vercel/insights/view
+[00:00:52.383] Browser LOG     ["Vue"]
+[00:00:54.279] Browser ERROR   {}
+[00:00:54.696] Browser ERROR   {}
+[00:04:00.813] Server  LOG     ✓ Compiled in 86ms
+[00:06:47.708] Server  LOG     ✓ Compiled in 34ms
+[00:06:55.360] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:06:56.031] Browser LOG     []
+[00:06:56.031] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:06:56.031] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:06:56.031] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","r":"","sdkn":"@vercel/analytics/next","sdkv":"2.0.1","sv":"0.1.3","ts":1788268468075} /_vercel/insights/view
+[00:06:56.565] Browser LOG     ["Terraform"]
+[00:06:59.087] Browser ERROR   {}
+[00:06:59.224] Browser ERROR   {}
+[00:07:42.474] Server  LOG     ✓ Compiled in 33ms
+[00:07:46.162] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:07:47.421] Browser LOG     []
+[00:07:47.421] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:07:47.421] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:07:47.421] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","r":"","sdkn":"@vercel/analytics/next","sdkv":"2.0.1","sv":"0.1.3","ts":1788268518492} /_vercel/insights/view
+[00:07:53.843] Browser LOG     ["Terraform"]
+[00:07:58.719] Browser LOG     []
+[00:08:00.836] Browser LOG     ["Vue"]
+[00:08:02.536] Browser ERROR   uncaughtError: TypeError: Cannot read properties of undefined (reading 'arch')
