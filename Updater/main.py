@@ -7,5 +7,4 @@ def main():
     for i in values:
         guide = generate_guide(i)
         update(i, guide)
-
 main()

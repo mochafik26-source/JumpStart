@@ -2,8 +2,15 @@
   "id": "express",
   "name": "Express",
   "install": {
-    "arch": ["sudo pacman -Syu nodejs npm", "npm install express"],
-    "all": ["npm install express"]
+    "arch": [
+      "sudo pacman -Syu nodejs npm",
+      "npm install express"
+    ],
+    "all": [
+      "npm install express"
+    ]
   },
-  "verify": []
+  "verify": [
+    "something"
+  ]
 }
