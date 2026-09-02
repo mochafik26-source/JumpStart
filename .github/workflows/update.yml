@@ -1,0 +1,28 @@
+name: Monthly Script
+
+on:
+  schedule:
+    - cron: "0 0 1 * *"
+
+  workflow_dispatch:
+
+jobs:
+  run-script:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: |
+          pip install -r Backend/requirements.txt
+
+      - name: Run script
+        run: |
+          python Backend/main.py
