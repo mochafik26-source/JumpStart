@@ -1,1 +1,21 @@
-"{\n    \"id\": \"tailwind\",\n    \"name\": \"Tailwind CSS\",\n    \"install\": {\n        \"arch\": [\n            \"sudo pacman -Syu nodejs npm\",\n            \"npm install -D tailwindcss\"\n        ],\n        \"ubuntu\": [\n            \"sudo apt update\",\n            \"sudo apt install -y nodejs npm\",\n            \"npm install -D tailwindcss\"\n        ],\n        \"all\": [\n            \"npm install -D tailwindcss\"\n        ]\n    },\n    \"verify\": [\n        \"npx tailwindcss -v\",\n        \"tailwindcss -v\"\n    ]\n}"
+{
+    "id": "tailwind",
+    "name": "Tailwind CSS",
+    "install": {
+        "arch": [
+            "sudo pacman -Syu nodejs npm",
+            "npm install -g tailwindcss"
+        ],
+        "ubuntu": [
+            "sudo apt-get update",
+            "sudo apt-get install -y nodejs npm",
+            "npm install -g tailwindcss"
+        ],
+        "all": [
+            "npm install -D tailwindcss"
+        ]
+    },
+    "verify": [
+        "tailwindcss -v"
+    ]
+}
