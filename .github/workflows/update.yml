@@ -1,4 +1,4 @@
-name: Monthly Script
+name: update 
 
 on:
   schedule:
@@ -21,8 +21,8 @@ jobs:
 
       - name: Install dependencies
         run: |
-          pip install -r Backend/requirements.txt
+          pip install -r requirements.txt
 
       - name: Run script
         run: |
-          python Backend/main.py
+          python Updater/main.py
