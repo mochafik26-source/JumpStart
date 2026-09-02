@@ -2,7 +2,7 @@ from groq import Groq
 from pydantic import BaseModel, ConfigDict
 from typing import List
 import json
-
+import os
 
 class Install(BaseModel):
     model_config = ConfigDict(extra="forbid")
@@ -21,7 +21,7 @@ class Guide(BaseModel):
     verify: List[str]
 
 
-client = Groq()
+client = Groq(api_key=os.environ["GROQ_API_KEY"])
 
 
 def generate_guide(technology: str) -> str:
