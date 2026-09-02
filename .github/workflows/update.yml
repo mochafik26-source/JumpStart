@@ -1,30 +1,10 @@
-name: Monthly Guide Generator
-
-on:
-  schedule:
-    - cron: "0 0 1 * *"
-
-  workflow_dispatch:
-
-jobs:
-  generate:
-    runs-on: ubuntu-latest
-
-    steps:
-      - name: Checkout repository
-        uses: actions/checkout@v4
-
-      - name: Set up Python
-        uses: actions/setup-python@v5
-        with:
-          python-version: "3.12"
-
-      - name: Install dependencies
-        run: |
-          pip install -r requirements.txt
-
-      - name: Run generator
-        env:
-          GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
-        run: |
-          python Updater/main.py
+- name: Run generator
+  env:
+    GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
+  run: |
+    echo "=== BEFORE PYTHON ==="
+    pwd
+    ls -la
+    echo "=== RUNNING PYTHON ==="
+    python -u "Updater/main.py"
+    echo "=== AFTER PYTHON ==="

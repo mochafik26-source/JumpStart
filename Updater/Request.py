@@ -21,7 +21,7 @@ class Guide(BaseModel):
     verify: List[str]
 
 
-client = Groq(api_key=os.environ["GROQ_API_KEY"])
+client = Groq()
 
 
 def generate_guide(technology: str) -> str:
